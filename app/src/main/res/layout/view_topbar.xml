@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <com.an.got.views.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padding"
+                android:paddingRight="@dimen/padding"
+                android:paddingTop="@dimen/padding"
+                android:paddingBottom="@dimen/padding_small"
+                android:textAllCaps="true"
+                android:text="TIME"
+                android:textColor="#7b0303"
+                android:textSize="17dp"
+                app:font="gt_medium" />
+
+
+            <com.an.got.views.CustomTextView
+                android:id="@+id/timer"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padding"
+                android:paddingRight="@dimen/padding"
+                android:paddingBottom="@dimen/padding"
+                android:inputType="number"
+                android:text="60"
+                android:textColor="#7b0303"
+                android:textSize="28dp"
+                app:font="gt_medium" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_alignParentRight="true"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <com.an.got.views.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padding"
+                android:paddingRight="@dimen/padding"
+                android:paddingTop="@dimen/padding"
+                android:paddingBottom="@dimen/padding_small"
+                android:textAllCaps="true"
+                android:text="SCORE"
+                android:textColor="#7b0303"
+                android:textSize="17dp"
+                app:font="gt_medium" />
+
+
+            <com.an.got.views.CustomTextView
+                android:id="@+id/score"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padding"
+                android:paddingRight="@dimen/padding"
+                android:paddingBottom="@dimen/padding"
+                android:inputType="number"
+                android:text="0"
+                android:textColor="#7b0303"
+                android:textSize="28dp"
+                app:font="gt_medium" />
+
+        </LinearLayout>
+
+    </RelativeLayout>

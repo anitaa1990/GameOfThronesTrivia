@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">GOT</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+    <string-array name="titles">
+        <item>Funtastic Trivia</item>
+        <item>Alive? Dead?</item>
+        <item>Famous words</item>
+        <item>Guess who?</item>
+        <item>Sigils &amp; Houses</item>
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>Are you prepared to test your knowledge?</item>
+        <item>Are you a true fan? Then you should know this</item>
+        <item>Time\'s running out! Can you guess who said it?</item>
+        <item>How well do you know your characters? Let\'s find out</item>
+        <item>How well do you know your houses? Let\'s find out</item>
+    </string-array>
+</resources>

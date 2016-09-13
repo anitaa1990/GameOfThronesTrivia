@@ -1,0 +1,34 @@
+{
+  "id": 4687,
+  "questions": [{
+    "id": 6526,
+    "questionText": "Who killed Robert Baratheon?",
+    "maxTries": 3,
+    "answers": [{
+      "id": 17271,
+      "questionId": 6526,
+      "answerDesc": "Jamie Lanister",
+      "correctAnswer" : false
+    }, {
+      "id": 17272,
+      "questionId": 6526,
+      "answerDesc": "Tyrion Lanister",
+      "correctAnswer" : false
+    }, {
+      "id": 17273,
+      "questionId": 6526,
+      "answerDesc": "Tywin Lanister",
+      "correctAnswer" : false
+    }, {
+      "id": 27337,
+      "questionId": 6526,
+      "answerDesc": "Cersei Lanister",
+      "correctAnswer" : true
+    }, {
+      "id": 27337,
+      "questionId": 6526,
+      "answerDesc": "Lancel Lanister",
+      "correctAnswer" : false
+    }]
+  }]
+}
