@@ -45,6 +45,12 @@ public class AnswerListAdapter extends RecyclerView.Adapter<AnswerListAdapter.Cu
         return answers.get(position);
     }
 
+    public void clear() {
+        if(answers != null && !answers.isEmpty()) {
+            answers.removeAll(answers);
+            notifyDataSetChanged();
+        }
+    }
 
     public class CustomViewHolder extends RecyclerView.ViewHolder {
         private TypeWriter answerText;

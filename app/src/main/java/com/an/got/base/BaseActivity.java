@@ -14,9 +14,12 @@ import android.widget.Toast;
 
 import com.an.got.R;
 import com.an.got.model.Question;
+import com.an.got.model.Survey;
 import com.an.got.utils.AnimationUtils;
 import com.an.got.utils.Utils;
 import com.an.got.views.explosive.ExplosionField;
+
+import java.util.Collections;
 
 
 public class BaseActivity extends AppCompatActivity {
@@ -26,7 +29,9 @@ public class BaseActivity extends AppCompatActivity {
 
     private ExplosionField mExplosionField;
 
-    private Question currentQuestion;
+    private Survey currentSurvey;
+    private int currentIndex;
+
     private CountDownTimer timer;
 
     @Override
@@ -76,10 +81,14 @@ public class BaseActivity extends AppCompatActivity {
         TextView tv = (TextView) view.findViewById(R.id.answerTxt);
         AnimationUtils.getInstance().animateCorrectResponse(tv, Color.parseColor("#0e5b02"));
 
+        /* cancel timer
+        /* update the no of guesses
+        /* update score
+        /* animation this set of question to the left */
         timer.cancel();
-        /* update score */
+        getCurrentQuestion().updateTries();
         updateScore();
-        AnimationUtils.getInstance().slideToLeft(root);
+        AnimationUtils.getInstance().slideOutLeft(root);
     }
 
     private void handleGameOver(final View root) {
@@ -108,11 +117,25 @@ public class BaseActivity extends AppCompatActivity {
         scoreTxt.setText(String.valueOf(score));
     }
 
-    public Question getCurrentQuestion() {
-        return currentQuestion;
+
+    protected Survey getCurrentSurvey() {
+        return currentSurvey;
     }
 
-    public void setCurrentQuestion(Question currentQuestion) {
-        this.currentQuestion = currentQuestion;
+    protected void setCurrentSurvey(Survey currentSurvey) {
+        Collections.shuffle(currentSurvey.getQuestions());
+        this.currentSurvey = currentSurvey;
+    }
+
+    protected int getCurrentIndex() {
+        return currentIndex;
+    }
+
+    protected void setCurrentIndex(int currentIndex) {
+        this.currentIndex = currentIndex;
+    }
+
+    protected Question getCurrentQuestion() {
+        return getCurrentSurvey().getQuestions().get(currentIndex);
     }
 }

@@ -7,7 +7,10 @@ import android.text.Spanned;
 import android.text.style.StrikethroughSpan;
 import android.view.View;
 import android.widget.TextView;
-import com.github.florent37.viewanimator.ViewAnimator;
+
+import com.an.got.R;
+import com.daimajia.androidanimations.library.Techniques;
+import com.daimajia.androidanimations.library.YoYo;
 
 public class AnimationUtils {
 
@@ -42,23 +45,32 @@ public class AnimationUtils {
     }
 
     public void animateCorrectResponse(final TextView tv, int color) {
-        ViewAnimator.animate(tv).pulse().duration(500).textColor(color)
-                .start();
+        tv.setTextColor(color);
     }
 
     public void slideFromBottom(View view) {
-        ViewAnimator.animate(view).slideBottom().repeatCount(0)
-                .start();
+        YoYo.with(Techniques.SlideInUp)
+                .duration(1200)
+                .playOn(view);
     }
 
-    public void slideToLeft(View view) {
-        ViewAnimator.animate(view).slideRight().repeatCount(0)
+    public void slideOutLeft(View view) {
+        YoYo.with(Techniques.SlideOutLeft)
                 .duration(1000)
-                .start();
+                .playOn(view.findViewById(R.id.questionTxt));
+
+        YoYo.with(Techniques.SlideOutLeft)
+                .duration(1000)
+                .playOn(view.findViewById(R.id.app_list));
     }
 
-    public void slideInFromRight(View view) {
-        ViewAnimator.animate(view).slideRight().repeatCount(0)
-                .start();
+    public void slideInRight(View view) {
+        YoYo.with(Techniques.SlideInRight)
+                .duration(1000)
+                .playOn(view.findViewById(R.id.questionTxt));
+
+        YoYo.with(Techniques.SlideInRight)
+                .duration(1000)
+                .playOn(view.findViewById(R.id.app_list));
     }
 }

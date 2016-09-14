@@ -11,10 +11,19 @@ import android.os.Handler;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.an.got.callbacks.OnSurveyListener;
+import com.an.got.model.Question;
+import com.an.got.model.Survey;
+import com.google.gson.Gson;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Random;
 
 public class Utils {
 
@@ -37,6 +46,16 @@ public class Utils {
     public static long getScoreForQuestion(int timeRemaining, int guesses) {
         long score = timeRemaining * guesses * timeRemaining;
         return score;
+    }
+
+    public static void getSurveyFromFile(final Context context, final int raw, final OnSurveyListener listener) {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                Survey survey = new Gson().fromJson(Utils.getJSONStringFromRaw(context, raw), Survey.class);
+                listener.onFetchSurvey(survey);
+            }
+        }).start();
     }
 
     private static final float DENSITY = Resources.getSystem().getDisplayMetrics().density;
