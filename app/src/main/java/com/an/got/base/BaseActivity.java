@@ -56,7 +56,8 @@ public class BaseActivity extends AppCompatActivity {
             }
             public void onFinish() {
                 //time's up
-//                handleGameOver();
+                //TODO : need to add a callback to each of the activities once the time is up!!
+                handleGameOver(null);
             }
         }.start();
     }
@@ -96,7 +97,7 @@ public class BaseActivity extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                mExplosionField.explode(root);
+                if(root != null) mExplosionField.explode(root);
                 Toast.makeText(BaseActivity.this, "Oops..Game Over!", Toast.LENGTH_LONG).show();
                 handler.postDelayed(new Runnable() {
                     @Override
