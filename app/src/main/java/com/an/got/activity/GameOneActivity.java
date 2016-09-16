@@ -53,16 +53,17 @@ public class GameOneActivity extends BaseActivity implements OnSurveyListener, G
             @Override
             public void onItemClick(View view, int position) {
                 Answer answer = adapter.getAnswer(position);
+                TextView tv = (TextView) view.findViewById(R.id.answerTxt);
                 if(!answer.isCorrectAnswer()) {
                      /* strike out the incorrect answer */
-                    TextView tv = (TextView) view.findViewById(R.id.answerTxt);
                     tv.setTextColor(Color.parseColor("#7b0303"));
                     AnimationUtils.getInstance().animateStrikeThrough(tv);
-
-                    handleIncorrectResponse(quizPanel, view);
+                    handleIncorrectResponse(quizPanel);
                 } else {
-                    handleCorrectResponse(quizPanel, view);
+                    AnimationUtils.getInstance().animateCorrectResponse(tv, Color.parseColor("#0e5b02"));
 
+                    handleCorrectResponse();
+                    AnimationUtils.getInstance().slideOutLeft(quizPanel);
                     handler.postDelayed(new Runnable() {
                         @Override
                         public void run() {

@@ -63,7 +63,7 @@ public class BaseActivity extends AppCompatActivity {
     }
 
 
-    protected void handleIncorrectResponse(View root, View view) {
+    protected void handleIncorrectResponse(View root) {
            /* update the no of guesses */
             getCurrentQuestion().updateTries();
 
@@ -73,10 +73,7 @@ public class BaseActivity extends AppCompatActivity {
             }
     }
 
-    protected void handleCorrectResponse(View root, View view) {
-        TextView tv = (TextView) view.findViewById(R.id.answerTxt);
-        AnimationUtils.getInstance().animateCorrectResponse(tv, Color.parseColor("#0e5b02"));
-
+    protected void handleCorrectResponse() {
         /* cancel timer
         /* update the no of guesses
         /* update score
@@ -84,7 +81,7 @@ public class BaseActivity extends AppCompatActivity {
         timer.cancel();
         getCurrentQuestion().updateTries();
         updateScore();
-        AnimationUtils.getInstance().slideOutLeft(root);
+
     }
 
     private void handleGameOver(final View root) {

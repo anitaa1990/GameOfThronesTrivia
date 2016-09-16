@@ -80,8 +80,9 @@ public class GameTwoActivity extends BaseActivity implements OnSurveyListener, V
         Button view = (Button) v;
         String selectedAnswerText = view.getText().toString();
         if(!isCorrectAnswer(selectedAnswerText)) {
-            handleIncorrectResponse(quizPanel, view);
+            handleIncorrectResponse(quizPanel);
         } else {
+            handleCorrectResponse();
             setCurrentIndex(getCurrentIndex()+1);
             setUpNextQuestion();
         }
