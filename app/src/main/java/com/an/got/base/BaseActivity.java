@@ -47,10 +47,10 @@ public class BaseActivity extends AppCompatActivity {
         mExplosionField = ExplosionField.attach2Window(this);
     }
 
-    public void startTimer() {
+    public void startTimer(int totalTime) {
         if(timerTxt == null) setUpTimer();
-
-       timer = new CountDownTimer(60000, 1000) {
+        if(timer != null) timer.cancel();
+       timer = new CountDownTimer(totalTime, 1000) {
             public void onTick(long millisUntilFinished) {
                 timerTxt.setText(String.valueOf(millisUntilFinished / 1000));
             }
@@ -66,11 +66,6 @@ public class BaseActivity extends AppCompatActivity {
     protected void handleIncorrectResponse(View root, View view) {
            /* update the no of guesses */
             getCurrentQuestion().updateTries();
-
-            /* strike out the incorrect answer */
-            TextView tv = (TextView) view.findViewById(R.id.answerTxt);
-            tv.setTextColor(Color.parseColor("#7b0303"));
-            AnimationUtils.getInstance().animateStrikeThrough(tv);
 
             /* 3 strikes and he's out! */
             if(getCurrentQuestion().getNumTries() >= getCurrentQuestion().getMaxTries()) {

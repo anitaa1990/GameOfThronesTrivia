@@ -19,4 +19,9 @@
     <dimen name="margin_xlarge">20dip</dimen>
     <dimen name="margin_xxlarge">22dip</dimen>
     <dimen name="margin_xxxlarge">29dip</dimen>
+
+
+    <dimen name="button_font_size">20dp</dimen>
+
+
 </resources>

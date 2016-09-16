@@ -45,4 +45,32 @@
         <item name="android:windowContentOverlay">@null</item>
     </style>
 
+    <style name="BaseButton">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:shadowDx">-1</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowRadius">10</item>
+        <item name="android:gravity">center</item>
+        <item name="font">gt_medium</item>
+        <item name="android:layout_marginLeft">@dimen/margin</item>
+        <item name="android:layout_marginRight">@dimen/margin</item>
+        <item name="android:paddingLeft">@dimen/padding_xxxlarge</item>
+        <item name="android:paddingRight">@dimen/padding_xxxlarge</item>
+        <item name="android:paddingTop">@dimen/padding_medium</item>
+        <item name="android:paddingBottom">@dimen/padding_medium</item>
+        <item name="android:textSize">@dimen/button_font_size</item>
+    </style>
+
+    <style name="GreenButtonStyle" parent="@style/BaseButton">
+        <item name="android:shadowColor">@color/button_green_shadow_text_color</item>
+        <item name="android:textColor">@color/button_green_text_color</item>
+        <item name="android:background">@drawable/ic_button_green</item>
+    </style>
+
+    <style name="RedButtonStyle" parent="@style/BaseButton">
+        <item name="android:shadowColor">@color/button_red_shadow_text_color</item>
+        <item name="android:textColor">@color/button_red_text_color</item>
+        <item name="android:background">@drawable/ic_button_red</item>
+    </style>
+
 </resources>

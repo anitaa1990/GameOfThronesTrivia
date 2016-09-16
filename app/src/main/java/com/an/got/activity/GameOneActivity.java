@@ -1,6 +1,7 @@
 package com.an.got.activity;
 
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -10,9 +11,12 @@ import android.support.v7.widget.RecyclerView;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
+import android.widget.TextView;
 
+import com.an.got.GOTConstants;
 import com.an.got.R;
 import com.an.got.adapter.AnswerListAdapter;
+import com.an.got.base.BaseActivity;
 import com.an.got.callbacks.OnSurveyListener;
 import com.an.got.model.Answer;
 import com.an.got.model.Question;
@@ -21,14 +25,10 @@ import com.an.got.utils.AnimationUtils;
 import com.an.got.utils.Utils;
 import com.an.got.views.CustomLinearLayoutManager;
 import com.an.got.views.RecyclerItemClickListener;
-import com.an.got.views.RevealActivity;
 import com.an.got.views.TypeWriter;
 import com.an.got.views.adapter.MyAlphaInAnimationAdapter;
-import com.google.gson.Gson;
 
-import java.util.Collections;
-
-public class GameOneActivity extends RevealActivity implements OnSurveyListener {
+public class GameOneActivity extends BaseActivity implements OnSurveyListener, GOTConstants {
 
     private TypeWriter questionTxt;
     private RecyclerView recyclerView;
@@ -43,9 +43,6 @@ public class GameOneActivity extends RevealActivity implements OnSurveyListener 
         setTheme(R.style.Theme_Transparent);
         setContentView(R.layout.activity_one);
 
-        View root= findViewById(R.id.overlay);
-        showRevealEffect(savedInstanceState, root);
-
         quizPanel = findViewById(R.id.quizPanel);
         questionTxt = (TypeWriter) findViewById(R.id.questionTxt);
         questionTxt.addTextChangedListener(textWatcher);
@@ -57,6 +54,11 @@ public class GameOneActivity extends RevealActivity implements OnSurveyListener 
             public void onItemClick(View view, int position) {
                 Answer answer = adapter.getAnswer(position);
                 if(!answer.isCorrectAnswer()) {
+                     /* strike out the incorrect answer */
+                    TextView tv = (TextView) view.findViewById(R.id.answerTxt);
+                    tv.setTextColor(Color.parseColor("#7b0303"));
+                    AnimationUtils.getInstance().animateStrikeThrough(tv);
+
                     handleIncorrectResponse(quizPanel, view);
                 } else {
                     handleCorrectResponse(quizPanel, view);
@@ -79,7 +81,7 @@ public class GameOneActivity extends RevealActivity implements OnSurveyListener 
     }
 
     private void fetchQuestions() {
-        Utils.getSurveyFromFile(getApplicationContext(), R.raw.survey, GameOneActivity.this);
+        Utils.getSurveyFromFile(getApplicationContext(), R.raw.game_one, GameOneActivity.this);
     }
 
     private void setUpNextQuestion() {
@@ -112,7 +114,7 @@ public class GameOneActivity extends RevealActivity implements OnSurveyListener 
                 alphaInAnimationAdapter.setRecyclerView(recyclerView);
                 alphaInAnimationAdapter.setDuration(1200);
                 recyclerView.setAdapter(alphaInAnimationAdapter);
-                startTimer();
+                startTimer(GAME_ONE_TIMER);
             }
         }
     };

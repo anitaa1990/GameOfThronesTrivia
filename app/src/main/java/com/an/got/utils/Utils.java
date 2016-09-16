@@ -98,4 +98,15 @@ public class Utils {
             return null;
         }
     }
+
+    public static int getImageId(Context context, String resourceName) {
+        try {
+            int nameResourceID =  context.getResources().getIdentifier(resourceName , "mipmap", context.getPackageName());;
+            return nameResourceID;
+        } catch (Exception e) {
+            e.printStackTrace();
+            int nameResourceID =  context.getResources().getIdentifier(resourceName , "mipmap", context.getPackageName());;
+            return nameResourceID;
+        }
+    }
 }

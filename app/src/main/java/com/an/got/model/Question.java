@@ -7,6 +7,7 @@ public class Question implements Serializable {
 
     private long id;
     private String questionText;
+    private String imageUrl;
     private int maxTries;
     private int numTries;
     private List<Answer> answers;
@@ -53,5 +54,13 @@ public class Question implements Serializable {
 
     public void updateTries() {
         setNumTries(getNumTries()+1);
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 }

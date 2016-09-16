@@ -6,4 +6,9 @@
 
     <color name="black_overlay">#000000</color>
     <color name="scroll_overlay">#ccdac888</color>
+
+    <color name="button_green_text_color">#48682c</color>
+    <color name="button_green_shadow_text_color">#6a8b5a</color>
+    <color name="button_red_text_color">#7b2223</color>
+    <color name="button_red_shadow_text_color">#9b2f31</color>
 </resources>

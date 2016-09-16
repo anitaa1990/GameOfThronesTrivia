@@ -73,4 +73,10 @@ public class AnimationUtils {
                 .duration(1000)
                 .playOn(view.findViewById(R.id.app_list));
     }
+
+    public void flipOVer(View view) {
+        YoYo.with(Techniques.FlipOutX)
+                .duration(1000)
+                .playOn(view);
+    }
 }

@@ -11,15 +11,15 @@ import android.widget.TextView;
 
 import com.an.got.R;
 import com.an.got.activity.GameOneActivity;
+import com.an.got.activity.GameTwoActivity;
 import com.an.got.adapter.CardAdapter;
 import com.an.got.base.BaseFragment;
-import com.an.got.views.RevealActivity;
 
 import java.util.Arrays;
 import java.util.List;
 
 
-public class CardFragment extends BaseFragment {
+public class CardFragment extends BaseFragment implements View.OnClickListener {
 
 
     public static CardFragment newInstance(int position) {
@@ -48,25 +48,13 @@ public class CardFragment extends BaseFragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
         final View view = inflater.inflate(R.layout.fragment_adapter, container, false);
-        mCardView = (CardView) view.findViewById(R.id.cardView);
+        view.setOnClickListener(this);
 
+        mCardView = (CardView) view.findViewById(R.id.cardView);
         title = (TextView) view.findViewById(R.id.title);
         description = (TextView) view.findViewById(R.id.description);
 
-
         mCardView.setMaxCardElevation(mCardView.getCardElevation() * CardAdapter.MAX_ELEVATION_FACTOR);
-
-        view.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                int[] location = new int[2];
-                mCardView.getLocationOnScreen(location);
-                Intent intent = new Intent(mActivity, GameOneActivity.class);
-                intent.putExtra(RevealActivity.REVEAL_X, location[0]);
-                intent.putExtra(RevealActivity.REVEAL_Y, location[1]);
-                startActivity(intent);
-            }
-        });
 
         List<String> titles = Arrays.asList(getResources().getStringArray(R.array.titles));
         List<String> descriptions = Arrays.asList(getResources().getStringArray(R.array.descriptions));
@@ -78,5 +66,20 @@ public class CardFragment extends BaseFragment {
 
     public CardView getCardView() {
         return mCardView;
+    }
+
+    @Override
+    public void onClick(View v) {
+        Intent intent = new Intent();
+        switch (itemPosition) {
+            case 0: intent.setClass(mActivity, GameOneActivity.class);
+                break;
+            case 1:intent.setClass(mActivity, GameTwoActivity.class);
+                break;
+            case 2: break;
+            case 3: break;
+            case 4: break;
+        }
+        startActivity(intent);
     }
 }
