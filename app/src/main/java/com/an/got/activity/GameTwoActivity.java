@@ -65,7 +65,10 @@ public class GameTwoActivity extends BaseActivity implements OnSurveyListener, V
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        imageView.setImageResource(Utils.getImageId(getApplicationContext(), question.getImageUrl()));
+                        Picasso.with(getApplicationContext())
+                                .load(question.getImageUrl())
+                                .placeholder(R.mipmap.ic_placeholder_1)
+                                .into(imageView);
                         startTimer(GAME_TWO_TIMER);
                     }
                 });
@@ -81,8 +84,15 @@ public class GameTwoActivity extends BaseActivity implements OnSurveyListener, V
             handleIncorrectResponse(quizPanel);
         } else {
             handleCorrectResponse();
-            setCurrentIndex(getCurrentIndex()+1);
-            setUpNextQuestion();
+            AnimationUtils.getInstance().flipOut(imageView);
+            handler.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    setCurrentIndex(getCurrentIndex()+1);
+                    setUpNextQuestion();
+                    AnimationUtils.getInstance().flipIn(imageView);
+                }
+            }, 1000);
         }
     }
 

@@ -3,7 +3,7 @@
   "questions": [{
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "doa_robb",
+    "imageUrl" : "http://static.airloyal.com/000-got-images/doa/doa_robb.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -19,7 +19,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "doa_arya",
+    "imageUrl" : "http://static.airloyal.com/000-got-images/doa/doa_arya.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -35,7 +35,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "doa_jamie",
+    "imageUrl" : "http://static.airloyal.com/000-got-images/doa/doa_jamie.png",
     "maxTries": 3,
     "answers": [{
       "id": 17271,

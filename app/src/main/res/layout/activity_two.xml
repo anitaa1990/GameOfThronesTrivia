@@ -20,15 +20,23 @@
 
         <LinearLayout
             android:id="@+id/quizPanel"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:layout_marginBottom="@dimen/margin"
+            android:background="@mipmap/parchment_9"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="wrap_content">
 
             <ImageView
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:src="@mipmap/ic_placeholder_1"
                 android:id="@+id/imgBanner"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/margin_xlarge"
+                android:layout_marginBottom="@dimen/margin"
                 android:layout_marginTop="@dimen/margin_xlarge"
                 android:adjustViewBounds="true" />
 
@@ -38,7 +46,7 @@
                 style="@style/GreenButtonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/margin_xlarge"
+                android:layout_marginTop="@dimen/margin_xxxlarge"
                 android:text="ALIVE" />
 
             <com.an.got.views.CustomButton
