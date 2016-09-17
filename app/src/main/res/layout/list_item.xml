@@ -3,13 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/padding_small"
     android:background="@android:color/transparent">
 
     <com.an.got.views.TypeWriter
         android:id="@+id/answerTxt"
         android:textSize="17dp"
-        android:layout_margin="@dimen/margin"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginTop="@dimen/margin_xsmall"
+        android:layout_marginBottom="@dimen/margin_small"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:font="architect"

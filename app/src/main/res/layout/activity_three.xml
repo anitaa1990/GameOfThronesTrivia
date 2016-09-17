@@ -21,32 +21,30 @@
         <LinearLayout
             android:id="@+id/quizPanel"
             android:orientation="vertical"
-            android:paddingTop="@dimen/padding_xlarge"
-            android:paddingLeft="@dimen/padding_xlarge"
-            android:paddingRight="@dimen/padding_xxlarge"
-            android:layout_marginTop="@dimen/margin_xlarge"
+            android:layout_marginTop="@dimen/margin"
             android:layout_marginLeft="@dimen/margin"
             android:layout_marginRight="@dimen/margin"
-            android:layout_marginBottom="@dimen/padding_megalarge"
+            android:layout_marginBottom="@dimen/margin"
             android:background="@mipmap/parchment_9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <com.an.got.views.TypeWriter
-                android:layout_marginTop="@dimen/padding_megalarge"
-                android:id="@+id/questionTxt"
-                android:textSize="20dp"
-                android:layout_marginLeft="@dimen/margin"
-                android:layout_marginRight="@dimen/margin"
-                android:layout_marginBottom="@dimen/padding_megalarge"
-                android:layout_width="wrap_content"
+            <ImageView
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:src="@mipmap/ic_placeholder_1"
+                android:id="@+id/imgBanner"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:font="architect"
-                android:textColor="@android:color/black" />
+                android:layout_marginBottom="@dimen/margin"
+                android:layout_marginTop="@dimen/margin_xlarge"
+                android:adjustViewBounds="true" />
 
 
             <view
-                android:padding="@dimen/padding_small"
+                android:paddingLeft="@dimen/padding_xlarge"
+                android:paddingRight="@dimen/padding_xxlarge"
+                android:paddingBottom="@dimen/padding_xxlarge"
                 class="android.support.v7.widget.RecyclerView"
                 android:scrollbars="none"
                 android:divider="@null"

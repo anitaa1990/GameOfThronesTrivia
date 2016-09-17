@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import com.an.got.R;
 import com.an.got.activity.GameOneActivity;
+import com.an.got.activity.GameThreeActivity;
 import com.an.got.activity.GameTwoActivity;
 import com.an.got.adapter.CardAdapter;
 import com.an.got.base.BaseFragment;
@@ -76,9 +77,11 @@ public class CardFragment extends BaseFragment implements View.OnClickListener {
                 break;
             case 1:intent.setClass(mActivity, GameTwoActivity.class);
                 break;
-            case 2: break;
+            case 2: intent.setClass(mActivity, GameThreeActivity.class);
+                break;
             case 3: break;
-            case 4: break;
+            case 4: intent.setClass(mActivity, GameThreeActivity.class);
+                break;
         }
         startActivity(intent);
     }

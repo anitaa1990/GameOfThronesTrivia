@@ -3,14 +3,11 @@ package com.an.got.activity;
 
 import android.graphics.Color;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Looper;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.RecyclerView;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.an.got.GOTConstants;
@@ -25,13 +22,13 @@ import com.an.got.utils.AnimationUtils;
 import com.an.got.utils.Utils;
 import com.an.got.views.CustomLinearLayoutManager;
 import com.an.got.views.RecyclerItemClickListener;
-import com.an.got.views.TypeWriter;
 import com.an.got.views.adapter.MyAlphaInAnimationAdapter;
+import com.squareup.picasso.Picasso;
 
-public class GameOneActivity extends BaseActivity implements OnSurveyListener, GOTConstants {
+public class GameThreeActivity extends BaseActivity implements OnSurveyListener, GOTConstants {
 
-    private TypeWriter questionTxt;
     private RecyclerView recyclerView;
+    private ImageView imageView;
     private View quizPanel;
 
     private AnswerListAdapter adapter;
@@ -40,11 +37,10 @@ public class GameOneActivity extends BaseActivity implements OnSurveyListener, G
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setTheme(R.style.Theme_Transparent);
-        setContentView(R.layout.activity_one);
+        setContentView(R.layout.activity_three);
 
         quizPanel = findViewById(R.id.quizPanel);
-        questionTxt = (TypeWriter) findViewById(R.id.questionTxt);
-        questionTxt.addTextChangedListener(textWatcher);
+        imageView = (ImageView) findViewById(R.id.imgBanner);
         recyclerView = (RecyclerView) findViewById(R.id.app_list);
         recyclerView.setLayoutManager(new CustomLinearLayoutManager(this));
         recyclerView.setItemAnimator(new DefaultItemAnimator());
@@ -54,7 +50,7 @@ public class GameOneActivity extends BaseActivity implements OnSurveyListener, G
                 Answer answer = adapter.getAnswer(position);
                 TextView tv = (TextView) view.findViewById(R.id.answerTxt);
                 if(!answer.isCorrectAnswer()) {
-                     /* strike out the incorrect answer */
+                /* strike out the incorrect answer */
                     tv.setTextColor(Color.parseColor("#7b0303"));
                     AnimationUtils.getInstance().animateStrikeThrough(tv);
                     handleIncorrectResponse(quizPanel);
@@ -62,13 +58,13 @@ public class GameOneActivity extends BaseActivity implements OnSurveyListener, G
                     AnimationUtils.getInstance().animateCorrectResponse(tv, Color.parseColor("#0e5b02"));
 
                     handleCorrectResponse();
-                    AnimationUtils.getInstance().slideOutLeft(quizPanel);
+                    AnimationUtils.getInstance().flipAndSlideOutLeft(quizPanel);
                     handler.postDelayed(new Runnable() {
                         @Override
                         public void run() {
                             setCurrentIndex(getCurrentIndex()+1);
                             setUpNextQuestion();
-                            AnimationUtils.getInstance().slideInRight(quizPanel);
+                            AnimationUtils.getInstance().flipAndSlideInRight(quizPanel);
                         }
                     }, 1000);
 
@@ -81,7 +77,7 @@ public class GameOneActivity extends BaseActivity implements OnSurveyListener, G
     }
 
     private void fetchQuestions() {
-        Utils.getSurveyFromFile(getApplicationContext(), R.raw.game_one, GameOneActivity.this);
+        Utils.getSurveyFromFile(getApplicationContext(), R.raw.game_three, GameThreeActivity.this);
     }
 
     private void setUpNextQuestion() {
@@ -90,44 +86,28 @@ public class GameOneActivity extends BaseActivity implements OnSurveyListener, G
             public void run() {
                 if(adapter != null) adapter.clear();
                 final Question question = getCurrentSurvey().getQuestions().get(getCurrentIndex());
-                adapter = new AnswerListAdapter(GameOneActivity.this, question.getAnswers());
+                adapter = new AnswerListAdapter(GameThreeActivity.this, question.getAnswers());
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        questionTxt.animateText(question.getQuestionText());
+                        Picasso.with(getApplicationContext())
+                                .load(question.getImageUrl())
+                                .placeholder(R.mipmap.ic_placeholder_1)
+                                .into(imageView);
+                        MyAlphaInAnimationAdapter alphaInAnimationAdapter =  new MyAlphaInAnimationAdapter(adapter);
+                        alphaInAnimationAdapter.setRecyclerView(recyclerView);
+                        alphaInAnimationAdapter.setDuration(1200);
+                        recyclerView.setAdapter(alphaInAnimationAdapter);
+                        startTimer(GAME_ONE_TIMER);
                     }
                 });
             }
         }).start();
     }
 
-    private TextWatcher textWatcher = new TextWatcher() {
-        @Override
-        public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
-        @Override
-        public void onTextChanged(CharSequence s, int start, int before, int count) {}
-        @Override
-        public void afterTextChanged(Editable s) {
-            int numChars = questionTxt.getText().toString().length();
-            if(getCurrentQuestion().getQuestionText().length() == numChars) {
-                MyAlphaInAnimationAdapter alphaInAnimationAdapter =  new MyAlphaInAnimationAdapter(adapter);
-                alphaInAnimationAdapter.setRecyclerView(recyclerView);
-                alphaInAnimationAdapter.setDuration(1200);
-                recyclerView.setAdapter(alphaInAnimationAdapter);
-                startTimer(GAME_ONE_TIMER);
-            }
-        }
-    };
-
     @Override
-    public void onFetchSurvey(final Survey survey) {
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                setCurrentSurvey(survey);
-                setUpNextQuestion();
-
-            }
-        }).start();
+    public void onFetchSurvey(Survey survey) {
+        setCurrentSurvey(survey);
+        setUpNextQuestion();
     }
 }

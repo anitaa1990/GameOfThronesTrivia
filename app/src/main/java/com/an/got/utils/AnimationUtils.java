@@ -74,6 +74,26 @@ public class AnimationUtils {
                 .playOn(view.findViewById(R.id.app_list));
     }
 
+    public void flipAndSlideOutLeft(View view) {
+        YoYo.with(Techniques.FlipOutX)
+                .duration(1000)
+                .playOn(view.findViewById(R.id.imgBanner));
+
+        YoYo.with(Techniques.SlideOutLeft)
+                .duration(1000)
+                .playOn(view.findViewById(R.id.app_list));
+    }
+
+    public void flipAndSlideInRight(View view) {
+        YoYo.with(Techniques.FlipInX)
+                .duration(1000)
+                .playOn(view.findViewById(R.id.imgBanner));
+
+        YoYo.with(Techniques.SlideInRight)
+                .duration(1000)
+                .playOn(view.findViewById(R.id.app_list));
+    }
+
     public void flipOVer(View view) {
         YoYo.with(Techniques.FlipOutX)
                 .duration(1000)

@@ -30,8 +30,6 @@ public class GameTwoActivity extends BaseActivity implements OnSurveyListener, V
     private Button btnAlive;
     private Button btnDead;
 
-    private Handler handler = new Handler(Looper.getMainLooper());
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

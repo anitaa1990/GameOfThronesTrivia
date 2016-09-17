@@ -30,8 +30,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/margin_xlarge"
                 android:layout_marginTop="@dimen/margin_xlarge"
-                android:adjustViewBounds="true"
-                android:src="@mipmap/test_robb_1" />
+                android:adjustViewBounds="true" />
 
 
             <com.an.got.views.CustomButton
