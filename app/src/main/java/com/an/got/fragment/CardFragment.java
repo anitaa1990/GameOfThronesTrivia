@@ -79,8 +79,9 @@ public class CardFragment extends BaseFragment implements View.OnClickListener {
                 break;
             case 2: intent.setClass(mActivity, GameOneActivity.class).putExtra("pos", R.raw.game_four);
                 break;
-            case 3: break;
-            case 4: intent.setClass(mActivity, GameThreeActivity.class).putExtra("pos", R.raw.game_three);
+            case 3: intent.setClass(mActivity, GameThreeActivity.class).putExtra("pos", R.raw.game_three);
+                break;
+            case 4:
                 break;
         }
         startActivity(intent);

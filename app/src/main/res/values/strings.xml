@@ -6,18 +6,18 @@
 
 
     <string-array name="titles">
-        <item>Funtastic Trivia</item>
+        <item>Fun Trivia</item>
         <item>Alive? Dead?</item>
-        <item>Famous words</item>
-        <item>Guess who?</item>
+        <item>Who said it?</item>
+        <!--<item>Guess who?</item>-->
         <item>Sigils &amp; Houses</item>
     </string-array>
 
     <string-array name="descriptions">
-        <item>Are you prepared to test your knowledge?</item>
-        <item>Are you a true fan? Then you should know this</item>
-        <item>Time\'s running out! Can you guess who said it?</item>
-        <item>How well do you know your characters? Let\'s find out</item>
+        <item>How well do you know GOT? Can you guess the answer before the time runs out?</item>
+        <item>Is your favorite character dead or alive? Here\'s your chance to find out!</item>
+        <item>Think you can recite GOT line by line? Find who said before the time runs out!</item>
+        <!--<item>How well do you know your characters? Let\'s find out</item>-->
         <item>How well do you know your houses? Let\'s find out</item>
     </string-array>
 </resources>

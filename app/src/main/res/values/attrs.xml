@@ -10,11 +10,11 @@
     </declare-styleable>
 
     <attr name="font">
-        <enum name="architect" value="1" />
-        <enum name="halo" value="2" />
-        <enum name="gt_medium" value="3" />
+        <enum name="lobster_regular" value="1" />
+        <enum name="varsity_playbook" value="2" />
+        <enum name="comic_papyrus" value="3" />
         <enum name="circular_regular" value="4" />
-        <enum name="lobster_regular" value="5" />
+        <enum name="gt_medium" value="5" />
     </attr>
 
 

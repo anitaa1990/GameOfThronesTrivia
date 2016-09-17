@@ -7,14 +7,14 @@
 
     <com.an.got.views.TypeWriter
         android:id="@+id/answerTxt"
-        android:textSize="17dp"
+        android:textSize="20dp"
         android:layout_marginLeft="@dimen/margin"
         android:layout_marginRight="@dimen/margin"
         android:layout_marginTop="@dimen/margin_xsmall"
         android:layout_marginBottom="@dimen/margin_small"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:font="architect"
+        app:font="comic_papyrus"
         android:textColor="@android:color/black" />
 
 

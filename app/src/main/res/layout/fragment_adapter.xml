@@ -24,7 +24,7 @@
 
             <com.an.got.views.CustomTextView
                 android:textStyle="bold"
-                android:textSize="21dp"
+                android:textSize="26dp"
                 android:textColor="#7b0303"
                 android:id="@+id/title"
                 android:paddingTop="@dimen/padding"
@@ -37,15 +37,16 @@
 
             <com.an.got.views.CustomTextView
                 android:paddingBottom="@dimen/padding_large"
-                android:textSize="15dp"
+                android:textSize="22dp"
                 android:layout_gravity="center_horizontal"
                 android:id="@+id/description"
                 android:paddingLeft="@dimen/padding"
                 android:paddingRight="@dimen/padding"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/margin_small"
-                app:font="architect"/>
+                android:layout_marginTop="@dimen/margin"
+                android:layout_marginBottom="@dimen/margin_small"
+                app:font="circular_regular"/>
         </LinearLayout>
 
     </FrameLayout>

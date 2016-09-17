@@ -43,19 +43,19 @@ public class CustomButton extends Button {
     public void setTypeFace(int fontValue) {
         Typeface myTypeFace;
         if (fontValue == 1) {
-            myTypeFace = Typeface.createFromAsset(this.getContext().getAssets(),"architect_dauhter.ttf");
+            myTypeFace = Typeface.createFromAsset(this.getContext().getAssets(), "lobster-regular.otf");
             this.setTypeface(myTypeFace);
         } else if (fontValue == 2) {
-            myTypeFace = Typeface.createFromAsset(this.getContext().getAssets(), "halo_handletter.otf");
+            myTypeFace = Typeface.createFromAsset(this.getContext().getAssets(), "varsity_playbook.ttf");
             this.setTypeface(myTypeFace);
         } else if (fontValue == 3) {
-            myTypeFace = Typeface.createFromAsset(this.getContext().getAssets(), "gt_medium.otf");
+            myTypeFace = Typeface.createFromAsset(this.getContext().getAssets(), "comic_papyrus.ttf");
             this.setTypeface(myTypeFace);
         } else if (fontValue == 4) {
             myTypeFace = Typeface.createFromAsset(this.getContext().getAssets(), "circular_regular.ttf");
             this.setTypeface(myTypeFace);
         } else if (fontValue == 5) {
-            myTypeFace = Typeface.createFromAsset(this.getContext().getAssets(), "lobster-regular.otf");
+            myTypeFace = Typeface.createFromAsset(this.getContext().getAssets(), "gt_medium.otf");
             this.setTypeface(myTypeFace);
         }
     }
