@@ -3,8 +3,6 @@ package com.an.got.activity;
 
 import android.graphics.Color;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Looper;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.RecyclerView;
@@ -69,6 +67,7 @@ public class GameOneActivity extends BaseActivity implements OnSurveyListener, G
                             setCurrentIndex(getCurrentIndex()+1);
                             setUpNextQuestion();
                             AnimationUtils.getInstance().slideInRight(quizPanel);
+                            recyclerView.setVisibility(View.INVISIBLE);
                         }
                     }, 1000);
 
@@ -81,7 +80,8 @@ public class GameOneActivity extends BaseActivity implements OnSurveyListener, G
     }
 
     private void fetchQuestions() {
-        Utils.getSurveyFromFile(getApplicationContext(), R.raw.game_one, GameOneActivity.this);
+        int raw = getIntent().getExtras().getInt("pos");
+        Utils.getSurveyFromFile(getApplicationContext(), raw, GameOneActivity.this);
     }
 
     private void setUpNextQuestion() {
@@ -110,6 +110,7 @@ public class GameOneActivity extends BaseActivity implements OnSurveyListener, G
         public void afterTextChanged(Editable s) {
             int numChars = questionTxt.getText().toString().length();
             if(getCurrentQuestion().getQuestionText().length() == numChars) {
+                recyclerView.setVisibility(View.VISIBLE);
                 MyAlphaInAnimationAdapter alphaInAnimationAdapter =  new MyAlphaInAnimationAdapter(adapter);
                 alphaInAnimationAdapter.setRecyclerView(recyclerView);
                 alphaInAnimationAdapter.setDuration(1200);

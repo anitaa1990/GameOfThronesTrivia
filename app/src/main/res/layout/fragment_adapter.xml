@@ -33,7 +33,7 @@
                 style="@style/TextAppearance.AppCompat.Title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:font="architect"/>
+                app:font="lobster_regular"/>
 
             <com.an.got.views.CustomTextView
                 android:paddingBottom="@dimen/padding_large"

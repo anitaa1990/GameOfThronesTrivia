@@ -62,6 +62,10 @@ public class AnimationUtils {
         YoYo.with(Techniques.SlideOutLeft)
                 .duration(1000)
                 .playOn(view.findViewById(R.id.app_list));
+
+        YoYo.with(Techniques.SlideOutLeft)
+                .duration(1000)
+                .playOn(view.findViewById(R.id.line));
     }
 
     public void slideInRight(View view) {
@@ -72,6 +76,10 @@ public class AnimationUtils {
         YoYo.with(Techniques.SlideInRight)
                 .duration(1000)
                 .playOn(view.findViewById(R.id.app_list));
+
+        YoYo.with(Techniques.SlideInRight)
+                .duration(1000)
+                .playOn(view.findViewById(R.id.line));
     }
 
     public void flipAndSlideOutLeft(View view) {

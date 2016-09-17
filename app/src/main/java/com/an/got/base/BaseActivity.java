@@ -34,6 +34,7 @@ public class BaseActivity extends AppCompatActivity {
     private int currentIndex;
 
     private CountDownTimer timer;
+    private int totalTime;
 
     protected Handler handler = new Handler(Looper.getMainLooper());
 
@@ -51,6 +52,7 @@ public class BaseActivity extends AppCompatActivity {
     }
 
     public void startTimer(int totalTime) {
+        this.totalTime = totalTime;
         if(timerTxt == null) setUpTimer();
         if(timer != null) timer.cancel();
        timer = new CountDownTimer(totalTime, 1000) {
@@ -111,6 +113,7 @@ public class BaseActivity extends AppCompatActivity {
         long score = Utils.getScoreForQuestion(timeRemaining, getCurrentQuestion().getNumTries());
         score = Long.valueOf(scoreTxt.getText().toString()) + score;
         scoreTxt.setText(String.valueOf(score));
+        timerTxt.setText(String.valueOf((int)(totalTime / 1000)));
     }
 
 
@@ -133,5 +136,14 @@ public class BaseActivity extends AppCompatActivity {
 
     protected Question getCurrentQuestion() {
         return getCurrentSurvey().getQuestions().get(currentIndex);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if(timer != null) {
+            timer.cancel();
+            timer = null;
+        }
     }
 }

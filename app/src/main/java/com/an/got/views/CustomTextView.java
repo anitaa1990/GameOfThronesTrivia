@@ -47,8 +47,12 @@ public class CustomTextView extends TextView {
         } else if (fontValue == 3) {
             myTypeFace = Typeface.createFromAsset(this.getContext().getAssets(), "gt_medium.otf");
             this.setTypeface(myTypeFace);
+        } else if (fontValue == 4) {
+            myTypeFace = Typeface.createFromAsset(this.getContext().getAssets(), "circular_regular.ttf");
+            this.setTypeface(myTypeFace);
+        } else if (fontValue == 5) {
+            myTypeFace = Typeface.createFromAsset(this.getContext().getAssets(), "lobster-regular.otf");
+            this.setTypeface(myTypeFace);
         }
-
-
     }
 }
