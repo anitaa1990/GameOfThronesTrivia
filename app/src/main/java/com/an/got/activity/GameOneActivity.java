@@ -31,6 +31,7 @@ public class GameOneActivity extends BaseActivity implements OnSurveyListener, G
     private TypeWriter questionTxt;
     private RecyclerView recyclerView;
     private View quizPanel;
+    private View lineSeparator;
 
     private AnswerListAdapter adapter;
 
@@ -41,6 +42,7 @@ public class GameOneActivity extends BaseActivity implements OnSurveyListener, G
         setContentView(R.layout.activity_one);
 
         quizPanel = findViewById(R.id.quizPanel);
+        lineSeparator = findViewById(R.id.line);
         questionTxt = (TypeWriter) findViewById(R.id.questionTxt);
         questionTxt.addTextChangedListener(textWatcher);
         recyclerView = (RecyclerView) findViewById(R.id.app_list);
@@ -115,6 +117,7 @@ public class GameOneActivity extends BaseActivity implements OnSurveyListener, G
                 alphaInAnimationAdapter.setRecyclerView(recyclerView);
                 alphaInAnimationAdapter.setDuration(1200);
                 recyclerView.setAdapter(alphaInAnimationAdapter);
+                lineSeparator.setVisibility(View.VISIBLE);
                 startTimer(GAME_ONE_TIMER);
             }
         }

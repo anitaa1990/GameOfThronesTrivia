@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@android:color/transparent">
 
-    <com.an.got.views.TypeWriter
+    <com.an.got.views.CustomTextView
         android:id="@+id/answerTxt"
         android:textSize="20dp"
         android:layout_marginLeft="@dimen/margin"

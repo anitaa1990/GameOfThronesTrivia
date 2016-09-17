@@ -5,10 +5,10 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.an.got.R;
 import com.an.got.model.Answer;
-import com.an.got.views.TypeWriter;
 
 import java.util.List;
 
@@ -52,11 +52,11 @@ public class AnswerListAdapter extends RecyclerView.Adapter<AnswerListAdapter.Cu
     }
 
     public class CustomViewHolder extends RecyclerView.ViewHolder {
-        private TypeWriter answerText;
+        private TextView answerText;
 
         public CustomViewHolder(View convertView) {
             super(convertView);
-            this.answerText = (TypeWriter) convertView.findViewById(R.id.answerTxt);
+            this.answerText = (TextView) convertView.findViewById(R.id.answerTxt);
         }
     }
 }
