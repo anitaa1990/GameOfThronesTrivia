@@ -92,7 +92,7 @@ public class GameThreeActivity extends BaseActivity implements OnSurveyListener,
                     public void run() {
                         Picasso.with(getApplicationContext())
                                 .load(question.getImageUrl())
-                                .placeholder(R.mipmap.ic_placeholder_1)
+                                .placeholder(R.mipmap.ic_placeholder)
                                 .into(imageView);
                         MyAlphaInAnimationAdapter alphaInAnimationAdapter =  new MyAlphaInAnimationAdapter(adapter);
                         alphaInAnimationAdapter.setRecyclerView(recyclerView);

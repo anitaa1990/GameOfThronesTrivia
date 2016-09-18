@@ -32,7 +32,7 @@
             <ImageView
                 android:layout_marginLeft="2dp"
                 android:layout_marginRight="2dp"
-                android:src="@mipmap/ic_placeholder_1"
+                android:src="@mipmap/ic_placeholder"
                 android:id="@+id/imgBanner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

@@ -1,10 +1,7 @@
 package com.an.got.activity;
 
 
-import android.net.Uri;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Looper;
 import android.support.annotation.Nullable;
 import android.view.View;
 import android.widget.Button;
@@ -12,7 +9,6 @@ import android.widget.ImageView;
 
 import com.an.got.GOTConstants;
 import com.an.got.R;
-import com.an.got.adapter.AnswerListAdapter;
 import com.an.got.base.BaseActivity;
 import com.an.got.callbacks.OnSurveyListener;
 import com.an.got.model.Answer;
@@ -67,7 +63,7 @@ public class GameTwoActivity extends BaseActivity implements OnSurveyListener, V
                     public void run() {
                         Picasso.with(getApplicationContext())
                                 .load(question.getImageUrl())
-                                .placeholder(R.mipmap.ic_placeholder_1)
+                                .placeholder(R.mipmap.ic_placeholder)
                                 .into(imageView);
                         startTimer(GAME_TWO_TIMER);
                     }
