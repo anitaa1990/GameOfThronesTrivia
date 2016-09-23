@@ -162,27 +162,27 @@
       "answers": [{
         "id": 17271,
         "questionId": 6526,
-        "answerDesc": "The Red Keep",
+        "answerDesc": "Gendry",
         "correctAnswer" : false
       }, {
         "id": 17272,
         "questionId": 6526,
-        "answerDesc": "The Eyrie",
+        "answerDesc": "Sansa",
         "correctAnswer" : false
       }, {
         "id": 17273,
         "questionId": 6526,
-        "answerDesc": "Riverrun",
+        "answerDesc": "Margerie",
         "correctAnswer" : false
       }, {
         "id": 27337,
         "questionId": 6526,
-        "answerDesc": "The Twins",
+        "answerDesc": "Jamie",
         "correctAnswer" : true
       }, {
         "id": 27337,
         "questionId": 6526,
-        "answerDesc": "Winterfell",
+        "answerDesc": "Ned Stark",
         "correctAnswer" : false
       }]
     },
@@ -498,7 +498,7 @@
     },
     {
       "id": 6526,
-      "questionText": "What was the name of the battle where Robert Baratheon killed Rhaegar Targaryen?",
+      "questionText": "Battle where Robert Baratheon killed Rhaegar?",
       "maxTries": 3,
       "answers": [{
         "id": 17271,

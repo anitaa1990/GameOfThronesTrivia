@@ -14,9 +14,9 @@
     </string-array>
 
     <string-array name="descriptions">
-        <item>How well do you know GOT? Can you guess the answer before the time runs out?</item>
+        <item>How well do you know GoT? Can you guess the answer before the time runs out?</item>
         <item>Is your favorite character dead or alive? Here\'s your chance to find out!</item>
-        <item>Think you can recite GOT line by line? Find who said before the time runs out!</item>
+        <item>Think you can recite GoT line by line? Find who said before the time runs out!</item>
         <!--<item>How well do you know your characters? Let\'s find out</item>-->
         <item>How well do you know your houses? Let\'s find out</item>
     </string-array>

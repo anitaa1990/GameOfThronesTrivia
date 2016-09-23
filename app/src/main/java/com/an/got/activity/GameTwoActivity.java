@@ -64,7 +64,7 @@ public class GameTwoActivity extends BaseActivity implements OnSurveyListener, V
                     public void run() {
                         Picasso.with(getApplicationContext())
                                 .load(question.getImageUrl())
-                                .placeholder(R.mipmap.ic_placeholder)
+                                .placeholder(R.drawable.progress_drawable)
                                 .into(imageView, new Callback() {
                             @Override
                             public void onSuccess() {
