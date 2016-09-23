@@ -50,7 +50,7 @@ public class HomeActivity extends BaseActivity {
                 if(mViewPager.getVisibility() != View.VISIBLE)
                     displayContent(null);
             }
-        }, 10000);
+        }, 12000);
     }
 
     public void displayContent(View view) {
