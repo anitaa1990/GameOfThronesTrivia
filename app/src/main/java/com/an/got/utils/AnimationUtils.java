@@ -50,7 +50,7 @@ public class AnimationUtils {
 
     public void slideFromBottom(View view) {
         YoYo.with(Techniques.SlideInUp)
-                .duration(1200)
+                .duration(1800)
                 .playOn(view);
     }
 
