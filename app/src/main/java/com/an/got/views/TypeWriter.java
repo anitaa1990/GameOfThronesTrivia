@@ -9,7 +9,7 @@ public class TypeWriter extends CustomTextView {
 
     private CharSequence mText;
     private int mIndex;
-    private long mDelay = 100; //Default 100ms delay
+    private long mDelay = 80; //Default 100ms delay
 
 
     public TypeWriter(Context context) {
