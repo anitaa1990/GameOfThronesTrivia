@@ -23,7 +23,7 @@
       "id": 27337,
       "questionId": 6526,
       "answerDesc": "Lord Baelish",
-      "correctAnswer" : true
+      "correctAnswer" : false
     }, {
       "id": 27337,
       "questionId": 6526,
@@ -33,7 +33,7 @@
   },
     {
       "id": 6526,
-      "questionText": "\"The more people you live the weaker you are\"",
+      "questionText": "\"The more people you love the weaker you are\"",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -48,12 +48,12 @@
       }, {
         "id": 17273,
         "questionId": 6526,
-        "answerDesc": "Jon Snow",
+        "answerDesc": "Roose Bolton",
         "correctAnswer" : false
       }, {
         "id": 27337,
         "questionId": 6526,
-        "answerDesc": "Ygritte",
+        "answerDesc": "Tywin Lannister",
         "correctAnswer" : false
       }, {
         "id": 27337,
@@ -69,12 +69,12 @@
       "answers": [{
         "id": 17271,
         "questionId": 6526,
-        "answerDesc": "Walder Fray",
+        "answerDesc": "Catelyn Stark",
         "correctAnswer" : false
       }, {
         "id": 17272,
         "questionId": 6526,
-        "answerDesc": "Balon Greyjoy",
+        "answerDesc": "Euron Greyjoy",
         "correctAnswer" : false
       }, {
         "id": 17273,
@@ -91,6 +91,533 @@
         "questionId": 6526,
         "answerDesc": "Daenerys Targaryen",
         "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "\"Never forget what you are. The rest of the world will not. Wear it like armor, and it can never be used to hurt you.\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Samwell Tarly",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Lord Varys",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Lord Mormont",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tyrion Lannister",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Ned Stark",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "\"The man who passes the sentence should swing the sword\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Rodrik",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Robert Baratheon",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Ned Stark",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Lyanna Mormont",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tywin Lannister",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "\"When you play the game of thrones, you win or you die. There is no middle ground\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Daenerys",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Baelish",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Cersei",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tyrion",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jamie",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "\"Power resides where men believe it resides. It’s a trick, a shadow on the wall\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Melisandre",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Stannis",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Baelish",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Ser Davos",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Varys",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "\"There is only one god, and his name is Death. And there is only one thing we say to Death: Not today.\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Jon Umber",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Brynden Tully",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Jorah Morment",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Arya Stark",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Syrio Forel",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "\"Anyone can be killed.\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Brienne",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Bronn",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Arya",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Gendry",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Shae",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "\"Gods help you Theon Greyjoy, now you are truly lost\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Luwin",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Rodrik",
+        "correctAnswer" : true
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Euron Greyjoy",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Robb Stark",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Bran Stark",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "\"All men must die, but we are not men\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Daenerys",
+        "correctAnswer" : true
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Missandei",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Melisandre",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Catelyn",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Cersei",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "\"There’s a beast in every man, and it stirs when you put a sword in his hand\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Jon Snow",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "The Hound",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Ser Barristan",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jorah Mormont",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Darrio Naharis",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "\"Chaos isn’t a pit. Chaos is a ladder. Many who try to climb it fail, and never get to try again — the fall breaks them\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Tyrion",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Lord Varys",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Baelish",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jamie",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Qhorin Halfhand",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "\"By what right does the wolf judge the lion\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Kevan",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Cersei",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Tywin",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jamie",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tyrion",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "\"Nothing isn't better or worse than anything. Nothing is just nothing\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Arya",
+        "correctAnswer" : true
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Thoros",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Ygritte",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jon Snow",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tyrion",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "\"All rulers are either butchers or meat\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Ramsay Bolton",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Ser Loras",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Darrio",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Stannis",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Joran Mormont",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "\"A ruler who kills those devoted to her is not a ruler who inspires devotion\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Balon Greyjoy",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Jamie Lannister",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Varys",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Lady Olenna",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tyrion Lannister",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "\"The long night is coming, and the dead come with it\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Mance Rayder",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Qhorin Halfhand",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Benjen Stark",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jon Snow",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Commander Mormont",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "\"What we don't know is what usually gets us killed\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Daenerys",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Baelish",
+        "correctAnswer" : true
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Varys",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tywin",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Oberyn",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "\"The thing we love destroy us every time. Remember that\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Thoros",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Commander Mormont",
+        "correctAnswer" : true
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Allister Thorne",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tormund",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Mance Rayder",
+        "correctAnswer" : false
       }]
     }]
 }

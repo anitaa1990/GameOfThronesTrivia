@@ -16,6 +16,7 @@ import com.an.got.model.Question;
 import com.an.got.model.Survey;
 import com.an.got.utils.AnimationUtils;
 import com.an.got.utils.Utils;
+import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
 
 public class GameTwoActivity extends BaseActivity implements OnSurveyListener, View.OnClickListener, GOTConstants {
@@ -64,8 +65,13 @@ public class GameTwoActivity extends BaseActivity implements OnSurveyListener, V
                         Picasso.with(getApplicationContext())
                                 .load(question.getImageUrl())
                                 .placeholder(R.mipmap.ic_placeholder)
-                                .into(imageView);
-                        startTimer(GAME_TWO_TIMER);
+                                .into(imageView, new Callback() {
+                            @Override
+                            public void onSuccess() {
+                                startTimer(GAME_TWO_TIMER);
+                            }
+                            @Override
+                            public void onError() {}});
                     }
                 });
             }

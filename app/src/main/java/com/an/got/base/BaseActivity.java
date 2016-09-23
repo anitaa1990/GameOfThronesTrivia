@@ -95,7 +95,7 @@ public class BaseActivity extends AppCompatActivity {
             @Override
             public void run() {
                 if(root != null) mExplosionField.explode(root);
-                Toast.makeText(BaseActivity.this, "Oops..Game Over!", Toast.LENGTH_LONG).show();
+//                Toast.makeText(BaseActivity.this, "Oops..Game Over!", Toast.LENGTH_LONG).show();
                 handler.postDelayed(new Runnable() {
                     @Override
                     public void run() {

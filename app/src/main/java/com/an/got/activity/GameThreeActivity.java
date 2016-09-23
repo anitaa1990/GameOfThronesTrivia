@@ -23,6 +23,7 @@ import com.an.got.utils.Utils;
 import com.an.got.views.CustomLinearLayoutManager;
 import com.an.got.views.RecyclerItemClickListener;
 import com.an.got.views.adapter.MyAlphaInAnimationAdapter;
+import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
 
 public class GameThreeActivity extends BaseActivity implements OnSurveyListener, GOTConstants {
@@ -93,12 +94,17 @@ public class GameThreeActivity extends BaseActivity implements OnSurveyListener,
                         Picasso.with(getApplicationContext())
                                 .load(question.getImageUrl())
                                 .placeholder(R.mipmap.ic_placeholder)
-                                .into(imageView);
-                        MyAlphaInAnimationAdapter alphaInAnimationAdapter =  new MyAlphaInAnimationAdapter(adapter);
-                        alphaInAnimationAdapter.setRecyclerView(recyclerView);
-                        alphaInAnimationAdapter.setDuration(1200);
-                        recyclerView.setAdapter(alphaInAnimationAdapter);
-                        startTimer(GAME_ONE_TIMER);
+                                .into(imageView, new Callback() {
+                                    @Override
+                                    public void onSuccess() {
+                                        MyAlphaInAnimationAdapter alphaInAnimationAdapter =  new MyAlphaInAnimationAdapter(adapter);
+                                        alphaInAnimationAdapter.setRecyclerView(recyclerView);
+                                        alphaInAnimationAdapter.setDuration(1200);
+                                        recyclerView.setAdapter(alphaInAnimationAdapter);
+                                        startTimer(GAME_ONE_TIMER);
+                                    }
+                                    @Override
+                                    public void onError() {}});
                     }
                 });
             }

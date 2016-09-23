@@ -35,7 +35,6 @@
 
             <com.an.got.views.TypeWriter
                 android:paddingLeft="@dimen/padding_xlarge"
-                android:text="I'm not going to stop the wheel. I'm going to break the wheel"
                 android:paddingRight="@dimen/padding_xlarge"
                 android:paddingTop="@dimen/padding_xlarge"
                 android:paddingBottom="@dimen/padding_xlarge"
