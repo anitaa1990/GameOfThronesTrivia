@@ -619,5 +619,2483 @@
         "answerDesc": "Milk of the poppy",
         "correctAnswer" : false
       }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Whose sword did Tywin melt to make two swords?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Robert Baratheon",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Ned Stark",
+        "correctAnswer" : true
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Robb Stark",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Renly Baratheon",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Catelyn Stark",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Who is sometimes referred to as Ser Piggy or Prince Pork-chop?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Samwell Tarly",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Jon Snow",
+        "correctAnswer" : true
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Pyp",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Eddision Tollett",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Theon",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Who was burned alive on Drogo's funeral pyre?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Jory Cassel",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Khal Drogo",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Septa Mordane",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Maris Piper",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Mirri Maz Duur",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What is the name of Jon Snow's direwolf?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Lady",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Summer",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Ghost",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Nymeria",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Shaggy",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What is the capital city of Westeros?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Casterly Rock",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "King's Landing",
+        "correctAnswer" : true
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Dragonstone",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Winterfell",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Highgarden",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Which Lannister song signalled doom at the Red Wedding?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "A Golden Crown",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "The Assassin's Dagger",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Tales of woes",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "The rains of Castermere",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Misty Mountain",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Which house is Petyr Baelish referring to when he says, 'Quick tempers, slow minds'?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "House Stark",
+        "correctAnswer" : true
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "House Lannister",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "House Baratheon",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "House Tyrell",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "House Martell",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Where is the last Targaryen in Westeros?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "The Eyrie",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Casterly Rock",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Castle Black",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "King's Landing",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Dorne",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Which city did Daenerys Targaryen visit first?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Mareen",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Yunkai",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Astapor",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Qarth",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Valyria",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Who is Bran Stark named after?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "His grandfather",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "His uncle",
+        "correctAnswer" : true
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "His father",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "His cousin",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "His brother",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Who was going to be the Stallion Who Mounted the World?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Lyanna Stark's son",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Robert Baratheon's son",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Mance's son",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Robb Stark's son",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Daenerys Targaryen's son",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Which of Daenerys Targaryen's three dragons are the largest?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Vhagar",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Balerion",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Drogon",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Rhaegal",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Viserion",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Who has Petyr Baelish loved since he was a child?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Lysa Aaryn",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Catelyn Stark",
+        "correctAnswer" : true
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Sansa Stark",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Cersei Lannister",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Shae",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Who does Oberyn Martell seek revenge for?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "His grandmother",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "His daughter",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "His mother",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "His wife",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "His sister",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What signaled Khal Drogo's undefeated glory to the Dothraki?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "The size of his khalasar",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "His army of men",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "The paint on his chest",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Length of his hair",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "The number of horses",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "How many kingdoms are in Westeros?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Seven",
+        "correctAnswer" : true
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Five",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Nine",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Three",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Eleven",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What is the name of Ned Stark's sword?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Wolf's tooth",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Needle",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Oathkeeper",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Ice",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Longclaw",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What is the name of Theon Greyjoy's ship?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Black Betha",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Fury",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Sea Bitch",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Iron Maiden",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Captain's daughter",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Who killed Jon Arryn?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Lysa Arryn",
+        "correctAnswer" : true
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Cersei",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Baelish",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jamie Lannister",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Joffrey",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What are House Greyjoy's words?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "We remember",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "We guard the way",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Winter is coming",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "We do not sow",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "We pay the iron price",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Who is the Mad King to Daenerys Targaryen?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Her cousin",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Her uncle",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Her grandfather",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Her brother",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Her father",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What is the name of Arya Stark's sword?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Wolfsbane",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Needle",
+        "correctAnswer" : true
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Icicle",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Nymeria",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Ice",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What does dracarys mean?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Fire",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Kill",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Dragonfire",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Eat",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Stop",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Whose execution does Bran Stark witness with his brothers?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Gared",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Will",
+        "correctAnswer" : true
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Grenn",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Pyp",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Waymar",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What is the name of Tommen Baratheon's cat?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Ser Puss",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Ser Whiskers",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Ser Meow",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Ser Pounce",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Ser Furball",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Who gets stabbed in the eye?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Yoren",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Verdis Egen",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Polliver",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Ser Hugh",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jory Cassel",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What is the name of Joffrey Baratheon's Valyrian steel blade?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Oathbreaker",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Widow's tail",
+        "correctAnswer" : true
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Dark sister",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Lion's tooth",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Hearteater",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What does one horn blast mean for the Night's Watch?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Others spotted",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Whitewalkers coming",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Rangers in trouble",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Rangers returning",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Wildlings spotted",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Who killed Beric Dondarrion first?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Arya Stark",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Roose Bolton",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "The Hound",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jamie Lannister",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "The Mountain",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Who gave Sandor Clegane the scars on his face?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Ilyn Payne",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Gregor Clegane",
+        "correctAnswer" : true
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Joffrey",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Robert",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Thoros",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Where is Melisandre from?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Casterly Rock",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "The Eyrie",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Dorne",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Asshai",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Highgarden",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Who leads Jon Snow to Commander Mormont's chamber where he discovers the undead threat?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Ghost",
+        "correctAnswer" : true
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Pyp",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Eddison Tollett",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Sam",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Rast",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What does Tyrion Lannister get his squire Podrick in thanks for saving his life?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "gold",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "land",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "3 whores",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "a new wife",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "silvers",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What is the name of Ned Stark's executioner?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Meryn Trant",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Ser Ilyn Payne",
+        "correctAnswer" : true
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Barristan Selmy",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Janos Slynt",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Joffrey Baratheon",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What relation is Edmure Tully to Robb Stark?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Grandfather",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Brother",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Cousin",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Father",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Uncle",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What is the 'Tears of Lys'?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Milk of the poppy",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Poison",
+        "correctAnswer" : true
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Basilisk venom",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Widow's Blood",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Water",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Theon Greyjoy spent how many years living as a ward of the Starks at Winterfell?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Eight",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Eleven",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Ten",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Nine",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Seven",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Who gives Arya Stark bread baked in the shape of a wolf?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "The Hound",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Polliver",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Yoren",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Gendry",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Hot Pie",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "According to Viserys Targaryen which dragon forged the Seven Kingdoms together by fire?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Meraxes",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Balerion",
+        "correctAnswer" : true
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Vhagar",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Drogon",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Rhaegal",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Who resurrects Beric Dondarrion after his fight with Sandor Clegane?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Morgan",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Anguy",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "The Red Woman",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Thoros",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Yoren",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Where is Torrhen’s Square near to?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Hunter's Gate",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "The Godswood",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Winterfell",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Storm's End",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Battlements Gate",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What is the sigil for House Umber?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "A Lion",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Swanns",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Bells",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "3 Dogs",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Chains",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What item did Gendry tell Ned Stark was not for sale?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Helmet",
+        "correctAnswer" : true
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Sword",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Axe",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Knife",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Armour",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What is the name of the cousin of Jaime Lannister he mercilessly kills?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Kevan",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Martyn",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Willem",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Alton",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Lancel",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Who tells Shae about the day Sansa was born, when all the bells in Winterfell rung in celebration?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Ros",
+        "correctAnswer" : true
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Cersei",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Baelish",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tyrion",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tywin",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Walder Frey is the lord of what?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Lord of the Eyrie",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Lord of Harrenhal",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Lord of the Dreadfort",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Lord of Riverrun",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Lord of the crossing",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Why does Theon Greyjoy execute Ser Rodrik Cassel?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "For imprisoning him",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "For eating his pie",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "For spitting on him",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "For not supporting him",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "For cursing him",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "How does Craster die?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Poisoned",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Stabbed in the back",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Beheaded",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Stabbed in the throat",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Stabbed in the eye",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Who beheads Rickard Karstark with a single strike with his sword?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Robb Stark",
+        "correctAnswer" : true
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Jamie Lannister",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Jon Umber",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Catelyn Stark",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Brandyn Tully",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "A wight can only be killed by what?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Beheading",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Stab in the eye",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Drowning",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Poison",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Fire",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What musical instrument does Theon’s torturer often use?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Flute",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "A Lyre",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "A horn",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "A Harp",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "A Lute",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Who uses the phrase 'a little Sally on the side' when referring to intimate relations with women?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Grenn",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Eddison Tollett",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Jon Snow",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Samwell Tarley",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Pyp",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What is the name of Theon’s horse?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Blood",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Smiler",
+        "correctAnswer" : true
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Dancer",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Stranger",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Ice",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "How many times do the rangers of the Night’s Watch blow their horns to warn of approaching White Walkers?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Four",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "One",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Two",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Five",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Three",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Whose Family sigil is a Fish?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "House Tully",
+        "correctAnswer" : true
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "House Tarth",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "House Tyrell",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "House Bolton",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "House Umber",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What do Robb and Talisa agree to name their first child?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Samwell",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Edmure",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Rickard",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Eddard",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Brandyn",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Which character has over 100 children, both legitimate and illegitimate?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Craster",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Walder Frey",
+        "correctAnswer" : true
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Roose Bolton",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Robert Baratheon",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Khal Drogo",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What type of cake is Sansa Stark especially fond of?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Orange",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Lime",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Lemon",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Mint",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Kiwi",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What is the name of the method of execution used at the Eyrie?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "The moon door",
+        "correctAnswer" : true
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "The hole in the wall",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "The door",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "The hole in the floor",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "The window",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Where did the massacre of the Wildlings by the White Walkers take place?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Hardhouse",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Hardhome",
+        "correctAnswer" : true
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Hardluck",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Hardhill",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Hardstorm",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What is dead...",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Is dead",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "May never return",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "May never die",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Can never return",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Is gone forever",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What is the name of the sword that Lord Commander Mormont gives to Jon Snow?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Longclaw",
+        "correctAnswer" : true
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Longtooth",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Heartsbane",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Heartsclaw",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Brokenheart",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Finish the final line of Tyrion's speech at the Blackwater: 'Let's go' ...",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Finish them",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Kick their asses",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Murder them",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Kill them",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Burn them all",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "During Brienne of Tarth's fight with the Hound, which body part did she bite off?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Toe",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Finger",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Ear",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tongue",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Nose",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What is the name of the insurgent group who fight against Daenerys' rule in Meereen?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "The Unsullied",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "The Brotherhood Without Banners",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "The Faith Militant",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "The Second Sons",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "The Sons of the Harpy",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What does 'valar dohaeris' mean?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "All men will die",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "All men must die",
+        "correctAnswer" : true
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "All men are died",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "All men shall die",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "All men are going die",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Which of these led to the death of Daenerys Targaryen’s husband Khal Drogo?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Poison",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Crossbow",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Festering wound",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Trampling horses",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Stabbed",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Which of these vows is not part of the Night's Watch oath?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "I shall hold and guard the Wall",
+        "correctAnswer" : true
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "I shall take no wife, hold no lands, father no children",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "I shall live and die at my post",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "I shall wear no crowns",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "I shall win no glory",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Who fathered Gilly's child?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Mance Rayder",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Samwell",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Orell",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Craster",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tormund Giantsbane",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Which house words appear alongside the sigil of House Martell?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Hear me roar",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Unbowed, Unbent, Unbroken",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Growing Strong",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Ours is the Fury",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "As High as Honour",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Jaqen H'ghar adheres to which religion?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "R'hllor, Lord of Light",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Old Gods of the Forest",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "The Drowned God",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Faith of the Seven",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Many-Faced God",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Which house is known for flaying its enemies?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "House Greyjoy",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "House Bolton",
+        "correctAnswer" : true
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "House Karstark",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "House Baelish",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "House Tully",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What was the name of Tyrion Lannister’s mother?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Cersei Lannister",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Asha Lannister",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Asha Lannister",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Joanna Lannister",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Janie Lannister",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "The people of Westeros defeated the White Walkers in which war?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "War for the Dawn",
+        "correctAnswer" : true
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "War of the Five Kings",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "War of the Five Kings",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "War of Conquest",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "War of the five kingdoms",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What is Renly Baratheon’s title when Ned Stark meets him for the 1st time?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Kingsguard",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Commander of the City Watch",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Master of Laws",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Master of Ships",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Master of Coin",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "What was Hodor’s job at Winterfell before he became Bran’s companion?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Maester",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Steward",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Fool",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Cook",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Stableboy",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Viserys traded his sister to Khal Drogo for an army of how many men?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "30,000",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "40,000",
+        "correctAnswer" : true
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "25,000",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "50,000",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "45,000",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 6526,
+      "questionText": "Which dragon skull isn’t on display in the red keep?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Balerion",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Essovius",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Archonei",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Meraxes",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Valryon",
+        "correctAnswer" : false
+      }]
+    },{
+      "id": 6526,
+      "questionText": "Robb stark’s direwolf Grey Wind plays an important role in what battle?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Battle of Oxcross",
+        "correctAnswer" : true
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Battle of the Bells",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Battle of the Green Fork",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Battle of Stone Mill",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Battle of the Reach",
+        "correctAnswer" : false
+      }]
+    },{
+      "id": 6526,
+      "questionText": "What’s the name of the ship that is taking Arya to braavos?",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Sea Bitch",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Black Bertha",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Titan's Daughter",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Myraham",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Fury",
+        "correctAnswer" : false
+      }]
     }]
 }
