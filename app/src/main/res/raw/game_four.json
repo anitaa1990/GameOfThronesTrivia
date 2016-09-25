@@ -12,7 +12,7 @@
     }, {
       "id": 17272,
       "questionId": 6526,
-      "answerDesc": "Lord Varys",
+      "answerDesc": "Varys",
       "correctAnswer" : true
     }, {
       "id": 17273,
@@ -22,7 +22,7 @@
     }, {
       "id": 27337,
       "questionId": 6526,
-      "answerDesc": "Lord Baelish",
+      "answerDesc": "Baelish",
       "correctAnswer" : false
     }, {
       "id": 27337,
@@ -38,12 +38,12 @@
       "answers": [{
         "id": 17271,
         "questionId": 6526,
-        "answerDesc": "Cersei Lanister",
+        "answerDesc": "Cersei",
         "correctAnswer" : true
       }, {
         "id": 17272,
         "questionId": 6526,
-        "answerDesc": "Daenerys Targaryen",
+        "answerDesc": "Daenerys",
         "correctAnswer" : false
       }, {
         "id": 17273,
@@ -53,12 +53,22 @@
       }, {
         "id": 27337,
         "questionId": 6526,
-        "answerDesc": "Tywin Lannister",
+        "answerDesc": "Tywin",
         "correctAnswer" : false
       }, {
         "id": 27337,
         "questionId": 6526,
-        "answerDesc": "Lord Baelish",
+        "answerDesc": "Baelish",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Shae",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Melisandre",
         "correctAnswer" : false
       }]
     },
@@ -69,7 +79,7 @@
       "answers": [{
         "id": 17271,
         "questionId": 6526,
-        "answerDesc": "Catelyn Stark",
+        "answerDesc": "Catelyn",
         "correctAnswer" : false
       }, {
         "id": 17272,
@@ -84,13 +94,23 @@
       }, {
         "id": 27337,
         "questionId": 6526,
-        "answerDesc": "Stanis Baratheon",
+        "answerDesc": "Stanis",
         "correctAnswer" : false
       }, {
         "id": 27337,
         "questionId": 6526,
-        "answerDesc": "Daenerys Targaryen",
+        "answerDesc": "Daenerys",
         "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tyrion",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Cersei",
+        "correctAnswer" : false
       }]
     },
     {
@@ -100,12 +120,12 @@
       "answers": [{
         "id": 17271,
         "questionId": 6526,
-        "answerDesc": "Samwell Tarly",
+        "answerDesc": "Sam Tarly",
         "correctAnswer" : false
       }, {
         "id": 17272,
         "questionId": 6526,
-        "answerDesc": "Lord Varys",
+        "answerDesc": "Varys",
         "correctAnswer" : false
       }, {
         "id": 17273,
@@ -115,12 +135,17 @@
       }, {
         "id": 27337,
         "questionId": 6526,
-        "answerDesc": "Tyrion Lannister",
+        "answerDesc": "Tyrion",
         "correctAnswer" : true
       }, {
         "id": 27337,
         "questionId": 6526,
         "answerDesc": "Ned Stark",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jon",
         "correctAnswer" : false
       }]
     },
@@ -136,12 +161,12 @@
       }, {
         "id": 17272,
         "questionId": 6526,
-        "answerDesc": "Robert Baratheon",
+        "answerDesc": "Robert",
         "correctAnswer" : false
       }, {
         "id": 17273,
         "questionId": 6526,
-        "answerDesc": "Ned Stark",
+        "answerDesc": "Eddard",
         "correctAnswer" : true
       }, {
         "id": 27337,
@@ -151,7 +176,12 @@
       }, {
         "id": 27337,
         "questionId": 6526,
-        "answerDesc": "Tywin Lannister",
+        "answerDesc": "Tywin",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Robert",
         "correctAnswer" : false
       }]
     },
@@ -184,6 +214,16 @@
         "questionId": 6526,
         "answerDesc": "Jamie",
         "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Varys",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Stannis",
+        "correctAnswer" : false
       }]
     },
     {
@@ -215,6 +255,16 @@
         "questionId": 6526,
         "answerDesc": "Varys",
         "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tywin",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jamie",
+        "correctAnswer" : false
       }]
     },
     {
@@ -239,7 +289,7 @@
       }, {
         "id": 27337,
         "questionId": 6526,
-        "answerDesc": "Arya Stark",
+        "answerDesc": "Arya",
         "correctAnswer" : false
       }, {
         "id": 27337,
@@ -277,6 +327,16 @@
         "questionId": 6526,
         "answerDesc": "Shae",
         "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Sansa",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Theon",
+        "correctAnswer" : false
       }]
     },
     {
@@ -307,6 +367,16 @@
         "id": 27337,
         "questionId": 6526,
         "answerDesc": "Bran Stark",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Balon",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Yara",
         "correctAnswer" : false
       }]
     },
@@ -368,7 +438,7 @@
       }, {
         "id": 27337,
         "questionId": 6526,
-        "answerDesc": "Darrio Naharis",
+        "answerDesc": "Darrio",
         "correctAnswer" : false
       }]
     },
@@ -384,7 +454,7 @@
       }, {
         "id": 17272,
         "questionId": 6526,
-        "answerDesc": "Lord Varys",
+        "answerDesc": "Varys",
         "correctAnswer" : false
       }, {
         "id": 17273,
@@ -400,6 +470,11 @@
         "id": 27337,
         "questionId": 6526,
         "answerDesc": "Qhorin Halfhand",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Benjen",
         "correctAnswer" : false
       }]
     },
@@ -432,6 +507,16 @@
         "questionId": 6526,
         "answerDesc": "Tyrion",
         "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Willem",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Alton",
+        "correctAnswer" : false
       }]
     },
     {
@@ -461,7 +546,12 @@
       }, {
         "id": 27337,
         "questionId": 6526,
-        "answerDesc": "Tyrion",
+        "answerDesc": "Gendry",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Hot Pie",
         "correctAnswer" : false
       }]
     },
@@ -477,7 +567,7 @@
       }, {
         "id": 17272,
         "questionId": 6526,
-        "answerDesc": "Ser Loras",
+        "answerDesc": "Loras",
         "correctAnswer" : false
       }, {
         "id": 17273,
@@ -492,7 +582,12 @@
       }, {
         "id": 27337,
         "questionId": 6526,
-        "answerDesc": "Joran Mormont",
+        "answerDesc": "Jorah",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Lady Olenna",
         "correctAnswer" : false
       }]
     },
@@ -508,7 +603,7 @@
       }, {
         "id": 17272,
         "questionId": 6526,
-        "answerDesc": "Jamie Lannister",
+        "answerDesc": "Jamie",
         "correctAnswer" : false
       }, {
         "id": 17273,
@@ -518,13 +613,18 @@
       }, {
         "id": 27337,
         "questionId": 6526,
-        "answerDesc": "Lady Olenna",
+        "answerDesc": "Tywin",
         "correctAnswer" : false
       }, {
         "id": 27337,
         "questionId": 6526,
-        "answerDesc": "Tyrion Lannister",
+        "answerDesc": "Tyrion",
         "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Darrio",
+        "correctAnswer" : false
       }]
     },
     {
@@ -554,7 +654,7 @@
       }, {
         "id": 27337,
         "questionId": 6526,
-        "answerDesc": "Commander Mormont",
+        "answerDesc": "Lord Mormont",
         "correctAnswer" : false
       }]
     },
@@ -587,6 +687,16 @@
         "questionId": 6526,
         "answerDesc": "Oberyn",
         "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Bronn",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jamie",
+        "correctAnswer" : false
       }]
     },
     {
@@ -601,7 +711,7 @@
       }, {
         "id": 17272,
         "questionId": 6526,
-        "answerDesc": "Commander Mormont",
+        "answerDesc": "Lord Mormont",
         "correctAnswer" : true
       }, {
         "id": 17273,
@@ -616,7 +726,2742 @@
       }, {
         "id": 27337,
         "questionId": 6526,
+        "answerDesc": "Mance",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jamie",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"I should wear the armour, and you the gown\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Catelyn",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Arya",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Ros",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Sansa",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Shae",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Brienne",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Cersei",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"There are no men like me. Only me\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Baelish",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Robb Stark",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Jamie",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Ramsay",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jon Snow",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Joffrey",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"Tell me, which do you favour, your fingers or your tongue?\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "The Hound",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Tyrion",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Loras",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Stannis",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Robert",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Joffrey",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Meryn Trant",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"I have never been nothing. I am the blood of the dragon\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Cersei",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Daenerys",
+        "correctAnswer" : true
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Elaena",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Valaena",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Rhaena",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Aemon",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"I did warn you not to trust me\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Bronn",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Beric Dondarrion",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Allister Thorne",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Petyr",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Mance",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tormund",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"I always wanted to be a wizard\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Gendry",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Willem",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Hot Pie",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Robin Aaryn",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Sam",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Arya",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"It's the family name that lives on. That's all that lives on. Not your personal glory, not your honour, but family\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Tywin Lannister",
+        "correctAnswer" : true
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Jeor Mormont",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Yoren",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tyrion",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Cersei",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Baelish",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"I am the dragon! I want my crown!\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Daenerys",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Renly Baratheon",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Viscerys",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Joffrey",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Roose Bolton",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"I never loved my brothers. Sad thing for a king to admit, but true. You were the brother I chose\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Jon Snow",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Sam",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Renly",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Stannis",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Robert Baratheon",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Eddison Tollett",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"I am not a murderer Lannister\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Ned Stark",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Oberyn",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Lysa Aaryn",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Robb",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "The Hound",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Catelyn",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"I'm not a cripple\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Tyrion",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Jamie",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Brandon",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jorah Mormont",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "The Hound",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Theon",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Arya",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"War was easier than daughters\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Crastor",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Balon Greyjoy",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Barristan Selmy",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Walder Frey",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Ned Stark",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"A mind needs a book like a sword needs a whetstone\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Samwell",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Tyrion",
+        "correctAnswer" : true
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Maester Aemon",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Maester Luwin",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Pycelle",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Qyburn",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"I'm good at killing fat boys. I like killing fat boys\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Allister Thorne",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Craster",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Styr",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Arya",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Ramsay",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Rast",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"There are five pups. One for each of the Stark children\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Jon Snow",
+        "correctAnswer" : true
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Rodrik Cassel",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Theon",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Maester Luwin",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jory",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"If we do it your way Kingslayer, you'd win. We're not doing it your way\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Catelyn",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Brienne",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Robb Stark",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Locke",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Ned Stark",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Bronn",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"You think my life is such a precious thing to me?\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Ned Stark",
+        "correctAnswer" : true
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Robert Baratheon",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Stannis",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Ser Davos",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "The Hound",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"How would you like to die, Tyrion, son of Tywin?\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Qhoran",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Lysa",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Shagga",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": " Yezzan zo Qaggaz",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": " Hizdahr zo Loraq",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"Everyone knew what this place was like and no one told me. No one but you. My father knew and left me to rot\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Hot Pie",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Samwell",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Tyrion",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jamie",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jon Snow",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Theon",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"He said the same thing he'd been saying for hours. Burn them all\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Brynden Stark",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Rickard Stark",
+        "correctAnswer" : true
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Tywin",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Varys",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Baelish",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jon Aaryn",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"The world is overflowing with horrible things, but they’re all a tray of cakes next to death\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Cersei",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Margerie",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Lady Olenna",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Ellaria Sand",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Talisa",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"Three victories don’t make you a conqueror\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Jamie",
+        "correctAnswer" : true
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Baelish",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Tywin",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Roose Bolton",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Varys",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Theon",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"A sword needs a sheathe, and a wedding needs a bedding. To bed!\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Ser Loras",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Joffrey",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Walder Frey",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Edmure Tully",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jamie",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"Loras is young and very good at knocking men off horses with a stick. That does not make him wise\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Stannis",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Cersei",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Mace Tyrell",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Margerie",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Lady Olenna",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"I’ve spent the last two years nursing wounded men, watching them bleed and die. I’m not afraid of wet shits\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Osha",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Cersei",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Margerie",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Talisa",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Shae",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Arya",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"I see a darkness in you. And in that darkness, eyes staring back at me\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Three eyed Raven",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Malko",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": " Mirri Maz Duur",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Melisandre",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Daenerys",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Doreah",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"There’s nothing worse than a late-blooming philosopher\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Jamie",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Tyrion",
+        "correctAnswer" : true
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Grenn",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Pyp",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Varys",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Yoren",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Darrio",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"Could you bring back a man without a head? Not six times, just once\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Rickon",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Bran",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Robin Aaryn",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Arya",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Sansa",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Catelyn",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"The disgraced daughter and the demon monkey: We’re perfect for each other\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Sansa",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Roslin Frey",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Edmure Tully",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Loras",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Cersei",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tyrion",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"You have one taste of the real world, where people have important things taken from them, and you whine and quit\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Brienne",
+        "correctAnswer" : true
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Talisa",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jamie",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tyrion",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Beric Donadarrion",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"My real father lost his head at King’s Landing. I made a choice, and I chose wrong\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Sansa",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Jon snow",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Theon",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Robb",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Bran",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Rickon",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"I'm the simplest man you will ever meet. I only do what I want to do\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Euron Greyjoy",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Jon Umber",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Loras",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tormund",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Darrio",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Thoros",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"Of all the ways to kill you, poison would be the last\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Littlefinger",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
         "answerDesc": "Mance Rayder",
+        "correctAnswer" : true
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Varys",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Craster",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Ramsay",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Qyburn",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"Once I was a knight, and now I'm only a fool\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Thoros",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Locke",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Selmy",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Dontos",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Janos Stynt",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Karl Tanner",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"Father doesn’t discriminate – we’re all being shipped off to Hell together\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Miranda",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Joffrey",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Jon Snow",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jamie",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tyrion",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Cersei",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"Help was not promised, lovely girl. Only death\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Thoros Of Myr",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Jaqen H'ghar",
+        "correctAnswer" : true
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Beric Dondarrion",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "The Hound",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"Death is so terribly final, while life is full of possibilities\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Jamie",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Tyrion",
+        "correctAnswer" : true
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Bronn",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Ygritte",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Daenerys",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jojen Reed",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"I'll stand for the dwarf\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Ser Loras",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Vardis Egen",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Jamie",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Ser Bronn",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Littlefinger",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"Everyone who has wronged me, is right here\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Eddard",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Robb",
+        "correctAnswer" : false
+      }, {
+        "id": 17273,
+        "questionId": 6526,
+        "answerDesc": "Tyrion",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Oberyn",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Ellaria Sand",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tyene Sand",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"A good king must be just\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Tywin",
+        "correctAnswer" : true
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Tyrion",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Barristan Selmy",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jeor Mormont",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"Some are given a chance to climb, but they refuse\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Jorah",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Petyr Baelish",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Ser Davos",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tormund",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Mance",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Ygritte",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"Then we will kill them all!\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Daenerys",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Red Woman",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Joffrey",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jamie",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Catelyn",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Cersei",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"But they have the soft hearts of women\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Lady Olenna",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "High Sparrow",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Meryn Trant",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tywin",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Joffrey",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"Will you sing when I hit you?\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Hot Pie",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Arya",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Gendry",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Rast",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Grenn",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Allister Thorne",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"For all the weight they're given, last words are usually as significant as first words\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Ned",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Jory Cassel",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Old Nan",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Luwin",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Pycelle",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Qyburn",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"Rhaegar fought valiantly, Rhaegar fought nobly, Rhaegar fought bravely. And Rhaegar died\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Jorah Mormont",
+        "correctAnswer" : true
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Maester Aemon",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Barristan Selmy",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Viscerys",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"All my life men like you have sneered at me. And all my life I've been knocking men like you into the dust\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Jamie",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Brienne",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Darrio",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jon Snow",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Myranda",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Arya",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"Are you a brother of the Night's Watch or a bastard boy who wants to play at war\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Joer Mormont",
+        "correctAnswer" : true
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Allister Thorne",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Benjen Stark",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Qhorin Halfhand",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"You know nothing, Jon Snow\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Edd Tollett",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Styr",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Ygritte",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tormund",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Melisandre",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Mance",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"First lesson, stick them with the pointy end\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Brienne",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Locke",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "The Hound",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jaqen h'ghar",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jon Snow",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Syrio Forel",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"If you think this has a happy ending, you haven't been paying attention\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Roose",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Ramsay",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Bronn",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jamie",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Darrio Naharis",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"It is rare to meet a Lannister who shares my enthusiasm for dead Lannisters\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Brienne",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Arya",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Daenerys",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jon Umber",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Karstark",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Oberyn",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"A man without friends is a man without power\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Cersei",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Margerie",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Ser Loras",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Renly",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jamie",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tywin",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Roose",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"There's a king in every corner now\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Maester Luwin",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Selmy",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Eddard",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Catelyn",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Varys",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"If we die we die, but first we'll live\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Ygritte",
+        "correctAnswer" : true
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Robb Stark",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Talisa",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Shae",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tyrion",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"Maybe magic once was a mighty force in the world, but not any more\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Pycelle",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Aemon",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Maester Luwin",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jorah Mormont",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Ser Davos",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"I like you. ... I just like myself more\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Maathos",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Pypar",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tormund",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Thoros",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Bronn",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Dondarrion",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"The night is dark and full or terrors, old man\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Daenerys",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Melisandre",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "The Hound",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Thoros",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Stannis",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"Nothing makes the past a sweeter place to visit than the prospect of imminent death\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Darrio Naharis",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Locke",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tyrion",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Maester Aemon",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Benjen Stark",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"Money buys a man's silence for a time. A bolt in the heart buys it forever\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Varys",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Littlefinger",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Sandor",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jaqen h'ghar",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Stannis",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Roose Bolton",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"The greatest swordsman who ever lived didn't have a sword?\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Tyrion",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Thoros",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Yoren",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Hot Pie",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Gendry",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Clegane",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"It's better to be cruel than weak\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Yara",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Balon Greyjoy",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Theon",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Euron Greyjoy",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Stannis",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Ramsay",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"The truth is always either terrible or boring\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Sansa Stark",
+        "correctAnswer" : true
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Lasy Olenna",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Margerie",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Myranda",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Brynden Tully",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"Mothers and fathers made up the gods because they wanted their children to sleep through the night\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Edmure Tully",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Darrio",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Maathos",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Ser Davos",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jamie",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Renly",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"My father told me big men fall just as quick as little ones, if you put a sword through their hearts\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Arya Stark",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Jon Snow",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Sansa Stark",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Maathos Seaworth",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"You waste time trying to get people to love you, you’ll wind up the most popular dead man in town\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Petyr",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Pycelle",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Shae",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Meryn Trant",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Varys",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Bronn",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"It's a shame the throne isn't made out of c*cks, they'd have never got him off it\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Oberyn Martell",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tyrion",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Cersei",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jamie",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Joffrey",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"You’ve got a big mouth, girl, and too many teeth\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Shae",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Osha",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Ros",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jaqen h'ghar",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "The Hound",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"I’m not so easily killed. Men have been trying for years.\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Darrio",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Jorah",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Eddard",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Robert",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Stannis",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tywin",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"Maybe you were as good as people said, once. Or maybe people just love to overpraise a famous name\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Catelyn",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Danerys",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tyrion",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Arya",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Sansa",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Brienne",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"I don't distrust you because you're a woman. I distrust you because you're not as smart as you think you are\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Tywin",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Littlefinger",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tyrion",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jamie",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Kevan Lannister",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Ramsay",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"Careful now, ladies. Once you set that monster free, there’s no caging him again\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Tyrion",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Ros",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Theon",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Bronn",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Joffrey",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Edmure Tully",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"He would see this country burn if he could be king of the ashes\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Varys",
+        "correctAnswer" : true
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Littlefinger",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Tyrion",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Sansa",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jon Snow",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Brandyn Tully",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"Women in our position must make the best of our circumstances\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Missandei",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Cersei",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Margerie",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Shae",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Myranda",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"My husband doesn’t eat children. Unless it’s a full moon\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Gilly",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Roslin Tully",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Catelyn",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Talisa",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Lady Olenna",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Daenerys",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"Even now, I could cut through the five of you like carving a cake! \"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Jorah Mormont",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Eddard Stark",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Barristan Selmy",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Kevan Lannister",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"Honor made you leave, and honor brought you back\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Varys",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Jon Umber",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Rickard Stark",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Eddard",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jeor Mormont",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Robb",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"I saw you kill a man with a shield, you'll be unstoppable with an axe\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Osha",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Hot Pie",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Meera Reed",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jamie",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Jon Snow",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Bronn",
+        "correctAnswer" : true
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"You've no right to a braid! You've won no victories yet! \"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Viscerys",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Doreah",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Khal Drogo",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Daenerys",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Xaro Xhoan Daxos",
+        "correctAnswer" : false
+      }]
+    },
+    {
+      "id": 20,
+      "questionText": "\"I don't fight in tournaments because when I fight a man for real, I don't want him to know what I can do\"",
+      "maxTries": 3,
+      "answers": [{
+        "id": 17271,
+        "questionId": 6526,
+        "answerDesc": "Jon Aaryn",
+        "correctAnswer" : false
+      }, {
+        "id": 17272,
+        "questionId": 6526,
+        "answerDesc": "Ned Stark",
+        "correctAnswer" : true
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Allister Thorne",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Benjen Stark",
+        "correctAnswer" : false
+      }, {
+        "id": 27337,
+        "questionId": 6526,
+        "answerDesc": "Euron Greyjoy",
         "correctAnswer" : false
       }]
     }]

@@ -44,7 +44,7 @@ public class Utils {
     }
 
     public static long getScoreForQuestion(int timeRemaining, int guesses) {
-        long score = timeRemaining * guesses * timeRemaining;
+        long score =  guesses * timeRemaining;
         return score;
     }
 

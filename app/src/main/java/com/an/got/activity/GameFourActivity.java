@@ -110,6 +110,7 @@ public class GameFourActivity extends BaseActivity implements OnSurveyListener, 
                             setUpNextQuestion();
                             AnimationUtils.getInstance().slideInRight(quizPanel);
                             picker.setVisibility(View.INVISIBLE);
+                            lineSeparator.setVisibility(View.INVISIBLE);
                         }
                     }, 1000);
                 }
