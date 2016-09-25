@@ -7,8 +7,21 @@
     <color name="black_overlay">#000000</color>
     <color name="scroll_overlay">#ccdac888</color>
 
+    <color name="bg_button_green">#608a52</color>
+    <color name="bg_button_red">#b0494a</color>
+
     <color name="button_green_text_color">#48682c</color>
     <color name="button_green_shadow_text_color">#6a8b5a</color>
     <color name="button_red_text_color">#7b2223</color>
     <color name="button_red_shadow_text_color">#9b2f31</color>
+
+
+
+    <color name="game_four_bg_button_green">#9abe58</color>
+    <color name="game_four_text_button_green">#5f5e2d</color>
+
+    <color name="game_four_bg_button_red">#5f5e2d</color>
+    <color name="game_four_text_button_red">#5f5e2d</color>
+
+
 </resources>

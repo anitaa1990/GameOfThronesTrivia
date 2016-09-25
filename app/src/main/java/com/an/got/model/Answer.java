@@ -8,6 +8,7 @@ public class Answer implements Serializable {
     private long questionId;
     private String answerDesc;
     private boolean correctAnswer;
+    private transient boolean isSelected;
 
     public long getId() {
         return id;
@@ -39,5 +40,13 @@ public class Answer implements Serializable {
 
     public void setCorrectAnswer(boolean correctAnswer) {
         this.correctAnswer = correctAnswer;
+    }
+
+    public boolean isSelected() {
+        return isSelected;
+    }
+
+    public void setSelected(boolean selected) {
+        isSelected = selected;
     }
 }

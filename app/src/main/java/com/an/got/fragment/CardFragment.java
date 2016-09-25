@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.an.got.R;
+import com.an.got.activity.GameFourActivity;
 import com.an.got.activity.GameOneActivity;
 import com.an.got.activity.GameThreeActivity;
 import com.an.got.activity.GameTwoActivity;
@@ -77,7 +78,7 @@ public class CardFragment extends BaseFragment implements View.OnClickListener {
                 break;
             case 1:intent.setClass(mActivity, GameTwoActivity.class).putExtra("pos", R.raw.game_two);
                 break;
-            case 2: intent.setClass(mActivity, GameOneActivity.class).putExtra("pos", R.raw.game_four);
+            case 2: intent.setClass(mActivity, GameFourActivity.class).putExtra("pos", R.raw.game_four);
                 break;
             case 3: intent.setClass(mActivity, GameThreeActivity.class).putExtra("pos", R.raw.game_three);
                 break;

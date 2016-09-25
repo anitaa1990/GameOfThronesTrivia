@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <com.an.got.views.CustomTextView
+        android:id="@+id/answerTxt"
+        android:textSize="17dp"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:font="comic_papyrus"
+        android:textColor="@android:color/black" />
+
+
+</LinearLayout>

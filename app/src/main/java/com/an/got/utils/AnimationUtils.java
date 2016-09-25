@@ -59,9 +59,11 @@ public class AnimationUtils {
                 .duration(1000)
                 .playOn(view.findViewById(R.id.questionTxt));
 
+        View v = view.findViewById(R.id.app_list) != null ? view.findViewById(R.id.app_list)
+                : view.findViewById(R.id.collection_item_picker);
         YoYo.with(Techniques.SlideOutLeft)
                 .duration(1000)
-                .playOn(view.findViewById(R.id.app_list));
+                .playOn(v);
 
         YoYo.with(Techniques.SlideOutLeft)
                 .duration(1000)
@@ -73,9 +75,11 @@ public class AnimationUtils {
                 .duration(1000)
                 .playOn(view.findViewById(R.id.questionTxt));
 
+        View v = view.findViewById(R.id.app_list) != null ? view.findViewById(R.id.app_list)
+                : view.findViewById(R.id.collection_item_picker);
         YoYo.with(Techniques.SlideInRight)
                 .duration(1000)
-                .playOn(view.findViewById(R.id.app_list));
+                .playOn(v);
 
         YoYo.with(Techniques.SlideInRight)
                 .duration(1000)
