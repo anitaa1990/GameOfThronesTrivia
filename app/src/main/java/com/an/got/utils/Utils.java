@@ -11,6 +11,7 @@ import android.os.Handler;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.an.got.GOTConstants;
 import com.an.got.callbacks.OnSurveyListener;
 import com.an.got.model.Question;
 import com.an.got.model.Survey;
@@ -25,7 +26,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-public class Utils {
+public class Utils implements GOTConstants {
 
     public static String getJSONStringFromRaw(Context context, int rawId) {
 
@@ -43,16 +44,30 @@ public class Utils {
         return respString;
     }
 
+    public static void writeObjectToDisk(String fileName, Object object) {
+        ObjectUtil objDataStream = new ObjectUtil();
+        objDataStream.writeObjects(object,fileName);
+    }
+
+    public static Object readObjectFromDisk(String fileName) {
+        ObjectUtil objDataStream = new ObjectUtil();
+        return objDataStream.readObjects(fileName);
+    }
+
     public static long getScoreForQuestion(int timeRemaining, int guesses) {
         long score =  guesses * timeRemaining;
         return score;
     }
 
-    public static void getSurveyFromFile(final Context context, final int raw, final OnSurveyListener listener) {
+    public static void getSurveyFromFile(final Context context,
+                                         final String fileName,
+                                         final OnSurveyListener listener) {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                Survey survey = new Gson().fromJson(Utils.getJSONStringFromRaw(context, raw), Survey.class);
+                String name = String.format(LOCALE_CACHE_PATH, context.getPackageName(), fileName);
+                String responseString = (String) Utils.readObjectFromDisk(name);
+                Survey survey = new Gson().fromJson(responseString, Survey.class);
                 listener.onFetchSurvey(survey);
             }
         }).start();

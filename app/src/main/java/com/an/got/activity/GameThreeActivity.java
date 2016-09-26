@@ -78,7 +78,8 @@ public class GameThreeActivity extends BaseActivity implements OnSurveyListener,
     }
 
     private void fetchQuestions() {
-        Utils.getSurveyFromFile(getApplicationContext(), R.raw.game_three, GameThreeActivity.this);
+        String raw = getIntent().getExtras().getString("pos");
+        Utils.getSurveyFromFile(getApplicationContext(), raw, GameThreeActivity.this);
     }
 
     private void setUpNextQuestion() {

@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.an.got.GOTConstants;
 import com.an.got.R;
 import com.an.got.activity.GameFourActivity;
 import com.an.got.activity.GameOneActivity;
@@ -21,7 +22,7 @@ import java.util.Arrays;
 import java.util.List;
 
 
-public class CardFragment extends BaseFragment implements View.OnClickListener {
+public class CardFragment extends BaseFragment implements View.OnClickListener, GOTConstants {
 
 
     public static CardFragment newInstance(int position) {
@@ -74,13 +75,13 @@ public class CardFragment extends BaseFragment implements View.OnClickListener {
     public void onClick(View v) {
         Intent intent = new Intent();
         switch (itemPosition) {
-            case 0: intent.setClass(mActivity, GameOneActivity.class).putExtra("pos", R.raw.game_one);
+            case 0: intent.setClass(mActivity, GameOneActivity.class).putExtra("pos", RAW_ONE);
                 break;
-            case 1:intent.setClass(mActivity, GameTwoActivity.class).putExtra("pos", R.raw.game_two);
+            case 1:intent.setClass(mActivity, GameTwoActivity.class).putExtra("pos", RAW_TWO);
                 break;
-            case 2: intent.setClass(mActivity, GameFourActivity.class).putExtra("pos", R.raw.game_four);
+            case 2: intent.setClass(mActivity, GameFourActivity.class).putExtra("pos", RAW_FOUR);
                 break;
-            case 3: intent.setClass(mActivity, GameThreeActivity.class).putExtra("pos", R.raw.game_three);
+            case 3: intent.setClass(mActivity, GameThreeActivity.class).putExtra("pos", RAW_THREE);
                 break;
             case 4:
                 break;

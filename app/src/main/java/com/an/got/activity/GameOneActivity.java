@@ -82,7 +82,7 @@ public class GameOneActivity extends BaseActivity implements OnSurveyListener, G
     }
 
     private void fetchQuestions() {
-        int raw = getIntent().getExtras().getInt("pos");
+        String raw = getIntent().getExtras().getString("pos");
         Utils.getSurveyFromFile(getApplicationContext(), raw, GameOneActivity.this);
     }
 

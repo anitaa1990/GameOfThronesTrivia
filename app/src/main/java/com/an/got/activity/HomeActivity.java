@@ -11,6 +11,7 @@ import com.an.got.R;
 import com.an.got.adapter.CardFragmentPagerAdapter;
 import com.an.got.base.BaseActivity;
 import com.an.got.utils.AnimationUtils;
+import com.an.got.utils.RequestUtils;
 import com.an.got.views.ShadowTransformer;
 
 public class HomeActivity extends BaseActivity {
@@ -41,6 +42,7 @@ public class HomeActivity extends BaseActivity {
         mViewPager.setVisibility(View.GONE);
 
         showContent();
+        getGames();
     }
 
     private void showContent() {
@@ -61,5 +63,14 @@ public class HomeActivity extends BaseActivity {
 
     public static float dpToPixels(int dp, Context context) {
         return dp * (context.getResources().getDisplayMetrics().density);
+    }
+
+    private void getGames() {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                new RequestUtils(HomeActivity.this).downloadAssets();
+            }
+        }).start();
     }
 }

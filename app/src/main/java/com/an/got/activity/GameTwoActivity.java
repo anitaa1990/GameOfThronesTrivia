@@ -45,7 +45,8 @@ public class GameTwoActivity extends BaseActivity implements OnSurveyListener, V
     }
 
     private void fetchQuestions() {
-        Utils.getSurveyFromFile(getApplicationContext(), R.raw.game_two, GameTwoActivity.this);
+        String raw = getIntent().getExtras().getString("pos");
+        Utils.getSurveyFromFile(getApplicationContext(), raw, GameTwoActivity.this);
     }
 
     @Override
