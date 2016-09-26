@@ -1,13 +1,18 @@
 package com.an.got.utils;
 
 
+import android.Manifest;
 import android.content.Context;
+import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Handler;
+import android.support.v4.content.ContextCompat;
 import android.view.View;
 import android.widget.ImageView;
 
@@ -123,5 +128,39 @@ public class Utils implements GOTConstants {
             int nameResourceID =  context.getResources().getIdentifier(resourceName , "mipmap", context.getPackageName());;
             return nameResourceID;
         }
+    }
+
+    public static boolean isNetworkAvailable(Context mContext) {
+        if(!isPermissionGranted(mContext)) return false;
+        ConnectivityManager connectivity = (ConnectivityManager) mContext.getSystemService(Context.CONNECTIVITY_SERVICE);
+        if (connectivity == null) {
+            return false;
+        } else {
+            NetworkInfo[] info = connectivity.getAllNetworkInfo();
+            if (info != null) {
+                for (NetworkInfo anInfo : info) {
+                    if (anInfo.getState() == NetworkInfo.State.CONNECTED) {
+                        return true;
+                    }
+                }
+            }
+        }
+        return false;
+    }
+
+    public static boolean isPermissionGranted(Context context) {
+        boolean hasPermission = checkPermissions(context, Manifest.permission.ACCESS_NETWORK_STATE);
+        if(!hasPermission) return hasPermission;
+        hasPermission = checkPermissions(context, Manifest.permission.INTERNET);
+        if(!hasPermission) return hasPermission;
+        hasPermission = ContextCompat.checkSelfPermission(context, Manifest.permission.ACCESS_NETWORK_STATE) == PackageManager.PERMISSION_GRANTED;
+        if(!hasPermission) return hasPermission;
+        hasPermission = ContextCompat.checkSelfPermission(context, Manifest.permission.INTERNET) == PackageManager.PERMISSION_GRANTED;
+        return hasPermission;
+    }
+
+    public static Boolean checkPermissions(Context context, String permission) {
+        PackageManager pm = context.getPackageManager();
+        return (pm.checkPermission(permission, context.getPackageName()) == PackageManager.PERMISSION_GRANTED);
     }
 }

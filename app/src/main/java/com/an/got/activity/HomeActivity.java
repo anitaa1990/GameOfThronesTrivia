@@ -11,7 +11,7 @@ import com.an.got.R;
 import com.an.got.adapter.CardFragmentPagerAdapter;
 import com.an.got.base.BaseActivity;
 import com.an.got.utils.AnimationUtils;
-import com.an.got.utils.RequestUtils;
+import com.an.got.utils.RequestTask;
 import com.an.got.views.ShadowTransformer;
 
 public class HomeActivity extends BaseActivity {
@@ -69,8 +69,9 @@ public class HomeActivity extends BaseActivity {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                new RequestUtils(HomeActivity.this).downloadAssets();
+                new RequestTask(HomeActivity.this).execute();
             }
         }).start();
+
     }
 }
