@@ -1,0 +1,2 @@
+-keep class com.an.got** { *; }
+-keep class com.google.gson.** { *; }
