@@ -3,7 +3,7 @@
   "questions": [{
     "id": 6526,
     "questionText": "Guess the flag",
-    "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_aaryn.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_aaryn.png",
     "maxTries": 3,
     "answers": [{
       "id": 17271,
@@ -35,7 +35,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_allyrion.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_allyrion.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -67,7 +67,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_ashford.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_ashford.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -99,7 +99,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_baelish.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_baelish.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -131,7 +131,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_baratheon.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_baratheon.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -163,7 +163,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_baratheon_three.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_baratheon_three.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -195,7 +195,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_baratheon_two.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_baratheon_two.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -227,7 +227,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_belmore.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_belmore.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -259,7 +259,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_blackfyre.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_blackfyre.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -291,7 +291,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_blackwood.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_blackwood.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -323,7 +323,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_bolton.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_bolton.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -355,7 +355,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_botley.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_botley.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -387,7 +387,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_bracken.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_bracken.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -419,7 +419,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_brax.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_brax.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -451,7 +451,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_butterwell.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_butterwell.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -483,7 +483,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_cassel.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_cassel.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -515,7 +515,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_cerwyn.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_cerwyn.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -547,7 +547,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_clegane_1.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_clegane_1.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -579,7 +579,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_coldwater.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_coldwater.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -611,7 +611,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_connington.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_connington.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -643,7 +643,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_corbray.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_corbray.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -675,7 +675,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_crakehall.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_crakehall.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -707,7 +707,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_dayne_1.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_dayne_1.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -739,7 +739,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_dondarrion.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_dondarrion.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -771,7 +771,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_drumm_1.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_drumm_1.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -803,7 +803,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_dustin.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_dustin.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -835,7 +835,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_estermont.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_estermont.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -867,7 +867,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_finn.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_finn.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -899,7 +899,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_flint.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_flint.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -931,7 +931,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_frey.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_frey.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -963,7 +963,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_gargalen.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_gargalen.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -995,7 +995,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_gaunt.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_gaunt.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1027,7 +1027,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_glover.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_glover.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1059,7 +1059,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_greyiron.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_greyiron.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1091,7 +1091,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_greyjoy.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_greyjoy.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1123,7 +1123,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_greyjoy_three.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_greyjoy_three.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1155,7 +1155,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_greyjoy_two.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_greyjoy_two.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1187,7 +1187,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_hardying.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_hardying.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1219,7 +1219,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_harlaw.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_harlaw.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1251,7 +1251,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_hasty.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_hasty.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1283,7 +1283,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_hightower.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_hightower.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1315,7 +1315,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_hollard.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_hollard.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1347,7 +1347,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_hornswood.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_hornswood.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1379,7 +1379,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_jordayne.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_jordayne.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1411,7 +1411,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_karstark.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_karstark.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1443,7 +1443,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_kenning.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_kenning.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1475,7 +1475,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_kettleblack.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_kettleblack.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1507,7 +1507,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_lannister.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_lannister.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1539,7 +1539,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_lannister_two_1.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_lannister_two_1.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1571,7 +1571,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_lefford.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_lefford.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1603,7 +1603,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_locke.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_locke.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1635,7 +1635,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_mallister.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_mallister.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1667,7 +1667,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_manderly.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_manderly.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1699,7 +1699,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_manwoody.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_manwoody.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1731,7 +1731,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_martell.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_martell.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1763,7 +1763,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_martell_one.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_martell_one.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1795,7 +1795,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_martell_two.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_martell_two.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1827,7 +1827,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_massey.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_massey.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1859,7 +1859,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_mormont.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_mormont.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1891,7 +1891,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_morrigen.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_morrigen.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1923,7 +1923,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_oakheart.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_oakheart.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1955,7 +1955,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_paege.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_paege.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -1987,7 +1987,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_penrose.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_penrose.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2019,7 +2019,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_qorgyle.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_qorgyle.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2051,7 +2051,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_redwyne.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_redwyne.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2083,7 +2083,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_reed.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_reed.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2115,7 +2115,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_rosby.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_rosby.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2147,7 +2147,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_santagar.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_santagar.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2179,7 +2179,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_sarsfield.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_sarsfield.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2211,7 +2211,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_seaworth.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_seaworth.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2243,7 +2243,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_selmy.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_selmy.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2275,7 +2275,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_shermer.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_shermer.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2307,7 +2307,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_smallwood.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_smallwood.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2339,7 +2339,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_sparr.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_sparr.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2371,7 +2371,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_stark.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_stark.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2403,7 +2403,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_stark_three.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_stark_three.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2435,7 +2435,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_stark_two.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_stark_two.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2467,7 +2467,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_swann.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_swann.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2499,7 +2499,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_swyft.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_swyft.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2531,7 +2531,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_tarbeck.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_tarbeck.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2563,7 +2563,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_targaryen_1.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_targaryen_1.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2595,7 +2595,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_targaryen_two.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_targaryen_two.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2627,7 +2627,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_tarly.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_tarly.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2659,7 +2659,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_tarth.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_tarth.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2691,7 +2691,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_templeton.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_templeton.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2723,7 +2723,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_thorne.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_thorne.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2755,7 +2755,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_toland.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_toland.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2787,7 +2787,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_trant.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_trant.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2819,7 +2819,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_tully_1.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_tully_1.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2851,7 +2851,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_tully_four.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_tully_four.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2883,7 +2883,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_tully_three.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_tully_three.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2915,7 +2915,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_tully_two.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_tully_two.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2947,7 +2947,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_tyrell.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_tyrell.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -2979,7 +2979,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_tyrell_three.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_tyrell_three.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -3011,7 +3011,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_tyrell_two.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_tyrell_two.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -3043,7 +3043,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_umber.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_umber.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -3075,7 +3075,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_waynwood.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_waynwood.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -3107,7 +3107,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_westerling.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_westerling.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -3139,7 +3139,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_whent.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_whent.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
@@ -3171,7 +3171,7 @@
     {
       "id": 6526,
       "questionText": "Guess the flag",
-      "imageUrl" : "http://static.airloyal.com/000-got-images/flags/house_yronwood_1.png",
+      "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/flags/house_yronwood_1.png",
       "maxTries": 3,
       "answers": [{
         "id": 17271,
