@@ -29,7 +29,6 @@ public class RequestTask extends AsyncTask<String, Void, Object> implements GOTC
                 HttpURLConnection connection = createGETHttpsURLConnection(String.format("%s%s.json", RAW_URL, fileName));
                 jsonResponse = readHttpResponse(connection, fileName);
             }
-            Log.d("FILE: ", jsonResponse);
             storeAssets(fileName, jsonResponse);
         } catch (Exception e) {
             e.printStackTrace();
