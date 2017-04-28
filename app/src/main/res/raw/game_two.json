@@ -969,12 +969,12 @@
       "id": 17271,
       "questionId": 6526,
       "answerDesc": "Alive",
-      "correctAnswer": true
+      "correctAnswer": false
     }, {
       "id": 17272,
       "questionId": 6526,
       "answerDesc": "Dead",
-      "correctAnswer": false
+      "correctAnswer": true
     }]
   }, {
     "id": 6526,
