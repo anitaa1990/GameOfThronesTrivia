@@ -1,6 +1,7 @@
 package com.an.got.model;
 
 import java.io.Serializable;
+import java.util.Collections;
 import java.util.List;
 
 public class Question implements Serializable {
@@ -45,6 +46,8 @@ public class Question implements Serializable {
     }
 
     public List<Answer> getAnswers() {
+        if(answers != null && !answers.isEmpty())
+            Collections.shuffle(answers);
         return answers;
     }
 
