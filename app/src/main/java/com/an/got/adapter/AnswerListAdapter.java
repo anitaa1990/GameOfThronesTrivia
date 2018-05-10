@@ -1,6 +1,7 @@
 package com.an.got.adapter;
 
 import android.content.Context;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,7 +9,9 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.an.got.R;
+import com.an.got.databinding.AnswerListItemBinding;
 import com.an.got.model.Answer;
+import com.an.got.utils.AnimationUtils;
 
 import java.util.List;
 
@@ -24,15 +27,16 @@ public class AnswerListAdapter extends RecyclerView.Adapter<AnswerListAdapter.Cu
 
     @Override
     public CustomViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.list_item, null);
-        CustomViewHolder viewHolder = new CustomViewHolder(view);
+        LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
+        AnswerListItemBinding itemBinding = AnswerListItemBinding.inflate(layoutInflater, parent, false);
+        CustomViewHolder viewHolder = new CustomViewHolder(itemBinding);
         return viewHolder;
     }
 
     @Override
     public void onBindViewHolder(CustomViewHolder holder, int position) {
         Answer answer = answers.get(position);
-        holder.answerText.setText(String.format("%s.  %s", String.valueOf(position+1), answer.getAnswerDesc()));
+        holder.binding.answerTxt.setText(String.format("%s.  %s", String.valueOf(position+1), answer.getAnswerDesc()));
     }
 
     @Override
@@ -44,6 +48,17 @@ public class AnswerListAdapter extends RecyclerView.Adapter<AnswerListAdapter.Cu
         return answers.get(position);
     }
 
+    public void updateWrongAnswerResponse(RecyclerView recyclerView, int position) {
+        AnswerListItemBinding itemBinding = ((AnswerListAdapter.CustomViewHolder)recyclerView.findViewHolderForLayoutPosition(position)).getBinding();
+        itemBinding.answerTxt.setTextColor(ContextCompat.getColor(context, R.color.game_four_question_txt));
+        AnimationUtils.getInstance().animateStrikeThrough(itemBinding.answerTxt);
+    }
+
+    public void updateCorrectAnswerResponse(RecyclerView recyclerView, int position) {
+        AnswerListItemBinding itemBinding = ((AnswerListAdapter.CustomViewHolder)recyclerView.findViewHolderForLayoutPosition(position)).getBinding();
+        AnimationUtils.getInstance().animateCorrectResponse(itemBinding.answerTxt, ContextCompat.getColor(context, R.color.correct_response_color));
+    }
+
     public void clear() {
         if(answers != null && !answers.isEmpty()) {
             answers.removeAll(answers);
@@ -52,11 +67,15 @@ public class AnswerListAdapter extends RecyclerView.Adapter<AnswerListAdapter.Cu
     }
 
     public class CustomViewHolder extends RecyclerView.ViewHolder {
-        private TextView answerText;
+        private final AnswerListItemBinding binding;
 
-        public CustomViewHolder(View convertView) {
-            super(convertView);
-            this.answerText = (TextView) convertView.findViewById(R.id.answerTxt);
+        public CustomViewHolder(AnswerListItemBinding binding) {
+            super(binding.getRoot());
+            this.binding = binding;
+        }
+
+        public AnswerListItemBinding getBinding() {
+            return binding;
         }
     }
 }

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data class="GameOneActivityBinding"></data>
 
     <FrameLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/overlay"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -21,7 +23,7 @@
             <include layout="@layout/view_topbar" />
 
 
-            <LinearLayout
+            <RelativeLayout
                 android:id="@+id/quizPanel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -29,7 +31,7 @@
                 android:layout_marginLeft="@dimen/margin"
                 android:layout_marginRight="@dimen/margin"
                 android:layout_marginTop="@dimen/margin_xlarge"
-                android:background="@mipmap/parchment_9"
+                android:background="@drawable/parchment_9"
                 android:orientation="vertical"
                 android:paddingTop="@dimen/padding_xxxlarge">
 
@@ -37,12 +39,12 @@
                 <com.an.got.views.TypeWriter
                     android:id="@+id/questionTxt"
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
+                    android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/margin_large"
                     android:layout_marginLeft="@dimen/margin_xlarge"
                     android:layout_marginRight="@dimen/margin_xlarge"
                     android:layout_marginTop="@dimen/margin_large"
-                    android:layout_weight="1"
+                    android:autoSizeTextType="uniform"
                     android:paddingBottom="@dimen/padding_xlarge"
                     android:paddingLeft="@dimen/padding_xlarge"
                     android:paddingRight="@dimen/padding_xlarge"
@@ -52,6 +54,8 @@
                     app:textFontPath="lobster-regular.otf" />
 
                 <View
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/questionTxt"
                     android:id="@+id/line"
                     android:layout_width="@dimen/game_four_line_width"
                     android:layout_height="1dp"
@@ -63,10 +67,10 @@
                 <android.support.v7.widget.RecyclerView
                     android:id="@+id/recyclerView"
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/line"
                     android:layout_marginTop="@dimen/margin_xlarge"
                     android:layout_marginBottom="@dimen/margin_xlarge"
-                    android:layout_weight="1.2"
                     android:cacheColorHint="@android:color/transparent"
                     android:divider="@null"
                     android:dividerHeight="0dp"
@@ -78,10 +82,11 @@
                     android:paddingTop="@dimen/padding_small"
                     android:scrollbars="none" />
 
-            </LinearLayout>
+            </RelativeLayout>
 
 
         </LinearLayout>
 
     </FrameLayout>
 
+</layout>

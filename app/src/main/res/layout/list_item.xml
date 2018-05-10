@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data class="AnswerListItemBinding"></data>
+
+<LinearLayout
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@android:color/transparent">
 
     <com.an.customfontview.CustomTextView
         android:id="@+id/answerTxt"
-        android:textSize="20dp"
+        android:textSize="@dimen/font_large"
+        android:autoSizeTextType="uniform"
         android:layout_marginLeft="@dimen/margin"
         android:layout_marginRight="@dimen/margin"
         android:layout_marginTop="@dimen/margin_xsmall"
@@ -19,3 +24,5 @@
 
 
 </LinearLayout>
+
+</layout>

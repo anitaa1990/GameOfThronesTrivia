@@ -59,7 +59,7 @@ public class AnimationUtils {
                 .duration(1000)
                 .playOn(view.findViewById(R.id.questionTxt));
 
-        View v = view.findViewById(R.id.app_list) != null ? view.findViewById(R.id.app_list)
+        View v = view.findViewById(R.id.recyclerView) != null ? view.findViewById(R.id.recyclerView)
                 : view.findViewById(R.id.collection_item_picker);
         YoYo.with(Techniques.SlideOutLeft)
                 .duration(1000)
@@ -75,7 +75,7 @@ public class AnimationUtils {
                 .duration(1000)
                 .playOn(view.findViewById(R.id.questionTxt));
 
-        View v = view.findViewById(R.id.app_list) != null ? view.findViewById(R.id.app_list)
+        View v = view.findViewById(R.id.recyclerView) != null ? view.findViewById(R.id.recyclerView)
                 : view.findViewById(R.id.collection_item_picker);
         YoYo.with(Techniques.SlideInRight)
                 .duration(1000)
@@ -93,7 +93,7 @@ public class AnimationUtils {
 
         YoYo.with(Techniques.SlideOutLeft)
                 .duration(1000)
-                .playOn(view.findViewById(R.id.app_list));
+                .playOn(view.findViewById(R.id.recyclerView));
     }
 
     public void flipAndSlideInRight(View view) {
@@ -103,7 +103,7 @@ public class AnimationUtils {
 
         YoYo.with(Techniques.SlideInRight)
                 .duration(1000)
-                .playOn(view.findViewById(R.id.app_list));
+                .playOn(view.findViewById(R.id.recyclerView));
     }
 
     public void flipOut(View view) {
