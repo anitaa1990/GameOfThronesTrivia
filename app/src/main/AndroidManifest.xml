@@ -32,18 +32,21 @@
 
         <activity
             android:name=".activity.GameTwoActivity"
+            android:theme="@style/Theme.Transparent"
             android:screenOrientation="portrait"
             android:label="@string/app_name">
         </activity>
 
         <activity
             android:name=".activity.GameThreeActivity"
+            android:theme="@style/Theme.Transparent"
             android:screenOrientation="portrait"
             android:label="@string/app_name">
         </activity>
 
         <activity
             android:name=".activity.GameFourActivity"
+            android:theme="@style/Theme.Transparent"
             android:screenOrientation="portrait"
             android:label="@string/app_name">
         </activity>

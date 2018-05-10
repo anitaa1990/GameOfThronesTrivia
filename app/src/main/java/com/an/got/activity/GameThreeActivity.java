@@ -92,8 +92,7 @@ public class GameThreeActivity extends BaseActivity implements OnSurveyListener,
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        Picasso.with(getApplicationContext())
-                                .load(question.getImageUrl())
+                        Picasso.get().load(question.getImageUrl())
                                 .placeholder(R.drawable.progress_drawable)
                                 .into(imageView, new Callback() {
                                     @Override
@@ -104,8 +103,9 @@ public class GameThreeActivity extends BaseActivity implements OnSurveyListener,
                                         recyclerView.setAdapter(alphaInAnimationAdapter);
                                         startTimer(GAME_ONE_TIMER);
                                     }
+
                                     @Override
-                                    public void onError() {}});
+                                    public void onError(Exception e) {}});
                     }
                 });
             }

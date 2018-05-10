@@ -74,7 +74,7 @@ public class Utils implements GOTConstants {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                String name = String.format(LOCALE_CACHE_PATH, context.getPackageName(), fileName);
+                String name = String.format(LOCALE_CACHE_PATH, fileName);
                 String responseString = (String) Utils.readObjectFromDisk(name);
                 Survey survey = new Gson().fromJson(responseString, Survey.class);
                 listener.onFetchSurvey(survey);

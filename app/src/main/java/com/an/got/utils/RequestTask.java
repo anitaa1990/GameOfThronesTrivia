@@ -37,7 +37,7 @@ public class RequestTask extends AsyncTask<String, Void, Object> implements GOTC
 
     public void storeAssets(String fileName,
                             String responseString) {
-        fileName = String.format(LOCALE_CACHE_PATH, context.getPackageName(), fileName);
+        fileName = String.format(LOCALE_CACHE_PATH, fileName);
         Utils.writeObjectToDisk(fileName, responseString);
     }
 
