@@ -71,6 +71,7 @@ public class GameThreeActivity extends BaseActivity implements RecyclerItemClick
                 .into(binding.imgBanner, new Callback() {
                     @Override
                     public void onSuccess() {
+                        binding.recyclerView.setVisibility(View.VISIBLE);
                         MyAlphaInAnimationAdapter alphaInAnimationAdapter =  new MyAlphaInAnimationAdapter(adapter);
                         alphaInAnimationAdapter.setRecyclerView(binding.recyclerView);
                         alphaInAnimationAdapter.setDuration(1200);
@@ -104,6 +105,7 @@ public class GameThreeActivity extends BaseActivity implements RecyclerItemClick
                     setCurrentIndex(getCurrentIndex()+1);
                     setUpNextQuestion();
                     AnimationUtils.getInstance().flipAndSlideInRight(binding.quizPanel);
+                    binding.recyclerView.setVisibility(View.INVISIBLE);
                 }
             }, getResources().getInteger(R.integer.default_wait_time_before_next_question));
         }
