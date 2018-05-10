@@ -1,10 +1,8 @@
 package com.an.got.activity;
 
-
-import android.arch.lifecycle.Observer;
-import android.arch.lifecycle.ViewModelProviders;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -12,19 +10,16 @@ import android.view.View;
 
 import com.an.got.GOTConstants;
 import com.an.got.R;
-import com.an.got.base.BaseActivity;
 import com.an.got.databinding.GameFourActivityBinding;
+import com.an.got.base.AppActivity;
 import com.an.got.model.Answer;
 import com.an.got.model.Question;
-import com.an.got.model.Survey;
 import com.an.got.utils.AnimationUtils;
-import com.an.got.viewmodel.SurveyViewModel;
 import com.an.got.views.CollectionPicker;
 
-public class GameFourActivity extends BaseActivity implements CollectionPicker.OnItemClickListener, GOTConstants {
+public class GameFourActivity extends AppActivity implements CollectionPicker.OnItemClickListener, GOTConstants {
 
     private GameFourActivityBinding binding;
-    private SurveyViewModel surveyViewModel;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -34,26 +29,17 @@ public class GameFourActivity extends BaseActivity implements CollectionPicker.O
         binding.questionTxt.addTextChangedListener(textWatcher);
         binding.collectionItemPicker.setVisibility(View.INVISIBLE);
         binding.collectionItemPicker.setOnItemClickListener(this);
-
-        surveyViewModel = ViewModelProviders.of(this).get(SurveyViewModel.class);
-        surveyViewModel.setGame(getIntent().getExtras().getString("pos"));
-        surveyViewModel.getSurveyMutableLiveData().observe(this, new Observer<Survey>() {
-            @Override
-            public void onChanged(@Nullable Survey survey) {
-                setCurrentSurvey(survey);
-                setUpNextQuestion();
-                setUpTimer();
-            }
-        });
+        initSurvey(getIntent().getExtras().getString("pos"));
     }
 
 
-    private void setUpNextQuestion() {
+    @Override
+    public void setUpNextQuestion() {
         new Thread(new Runnable() {
             @Override
             public void run() {
                 if (binding.collectionItemPicker != null) binding.collectionItemPicker.clearItems();
-                final Question question = getCurrentSurvey().getQuestions().get(getCurrentIndex());
+                final Question question =  getCurrentQuestion();
                 binding.collectionItemPicker.setItems(question.getAnswers());
                 runOnUiThread(new Runnable() {
                     @Override
@@ -64,6 +50,39 @@ public class GameFourActivity extends BaseActivity implements CollectionPicker.O
             }
         }).start();
     }
+
+
+    @Override
+    public void handleCorrectResponse(int position) {
+        super.handleCorrectResponse();
+
+        AnimationUtils.getInstance().slideOutLeft(binding.quizPanel);
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                incrementCurrentIndex();
+                setUpNextQuestion();
+                AnimationUtils.getInstance().slideInRight(binding.quizPanel);
+                binding.collectionItemPicker.setVisibility(View.INVISIBLE);
+                binding.line.setVisibility(View.INVISIBLE);
+            }
+        }, getResources().getInteger(R.integer.default_wait_time_before_next_question));
+    }
+
+
+    @Override
+    public void handleWrongResponse(int position) {
+        super.handleWrongResponse();
+    }
+
+
+    private void displayNextQuestionAnswers() {
+        binding.collectionItemPicker.setVisibility(View.VISIBLE);
+        binding.line.setVisibility(View.VISIBLE);
+        startTimer(GAME_ONE_TIMER);
+        binding.collectionItemPicker.drawItemView();
+    }
+
 
     private TextWatcher textWatcher = new TextWatcher() {
         @Override
@@ -78,10 +97,7 @@ public class GameFourActivity extends BaseActivity implements CollectionPicker.O
         public void afterTextChanged(Editable s) {
             int numChars = binding.questionTxt.getText().toString().length();
             if (getCurrentQuestion().getQuestionText().length() == numChars) {
-                binding.collectionItemPicker.setVisibility(View.VISIBLE);
-                binding.line.setVisibility(View.VISIBLE);
-                startTimer(GAME_ONE_TIMER);
-                binding.collectionItemPicker.drawItemView();
+                displayNextQuestionAnswers();
             }
         }
     };
@@ -90,21 +106,10 @@ public class GameFourActivity extends BaseActivity implements CollectionPicker.O
     @Override
     public void onClick(Answer answer, int position) {
         if (!answer.isCorrectAnswer()) {
+            handleWrongResponse(position);
 
-            handleIncorrectResponse(binding.quizPanel);
         } else {
-            handleCorrectResponse();
-            AnimationUtils.getInstance().slideOutLeft(binding.quizPanel);
-            handler.postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    setCurrentIndex(getCurrentIndex() + 1);
-                    setUpNextQuestion();
-                    AnimationUtils.getInstance().slideInRight(binding.quizPanel);
-                    binding.collectionItemPicker.setVisibility(View.INVISIBLE);
-                    binding.line.setVisibility(View.INVISIBLE);
-                }
-            }, getResources().getInteger(R.integer.default_wait_time_before_next_question));
+            handleCorrectResponse(position);
         }
     }
 }

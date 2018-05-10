@@ -1,10 +1,9 @@
 package com.an.got.activity;
 
 
-import android.arch.lifecycle.Observer;
-import android.arch.lifecycle.ViewModelProviders;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.text.Editable;
@@ -14,22 +13,19 @@ import android.view.View;
 import com.an.got.GOTConstants;
 import com.an.got.R;
 import com.an.got.adapter.AnswerListAdapter;
-import com.an.got.base.BaseActivity;
+import com.an.got.base.AppActivity;
 import com.an.got.databinding.GameOneActivityBinding;
 import com.an.got.model.Answer;
 import com.an.got.model.Question;
-import com.an.got.model.Survey;
 import com.an.got.utils.AnimationUtils;
-import com.an.got.viewmodel.SurveyViewModel;
 import com.an.got.views.CustomLinearLayoutManager;
 import com.an.got.views.RecyclerItemClickListener;
 import com.an.got.views.adapter.MyAlphaInAnimationAdapter;
 
-public class GameOneActivity extends BaseActivity implements RecyclerItemClickListener.OnItemClickListener, GOTConstants {
+public class GameOneActivity extends AppActivity implements RecyclerItemClickListener.OnItemClickListener, GOTConstants {
 
     private AnswerListAdapter adapter;
     private GameOneActivityBinding binding;
-    private SurveyViewModel surveyViewModel;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -42,22 +38,14 @@ public class GameOneActivity extends BaseActivity implements RecyclerItemClickLi
         binding.recyclerView.setItemAnimator(new DefaultItemAnimator());
         binding.recyclerView.addOnItemTouchListener(new RecyclerItemClickListener(getApplicationContext(), this));
 
-        surveyViewModel = ViewModelProviders.of(this).get(SurveyViewModel.class);
-        surveyViewModel.setGame(getIntent().getExtras().getString("pos"));
-        surveyViewModel.getSurveyMutableLiveData().observe(this, new Observer<Survey>() {
-            @Override
-            public void onChanged(@Nullable Survey survey) {
-                setCurrentSurvey(survey);
-                setUpNextQuestion();
-                setUpTimer();
-            }
-        });
+        initSurvey(getIntent().getExtras().getString("pos"));
     }
 
 
-    private void setUpNextQuestion() {
+    @Override
+    public void setUpNextQuestion() {
         if(adapter != null) adapter.clear();
-        final Question question = getCurrentSurvey().getQuestions().get(getCurrentIndex());
+        final Question question = getCurrentQuestion();
         adapter = new AnswerListAdapter(GameOneActivity.this, question.getAnswers());
         runOnUiThread(new Runnable() {
             @Override
@@ -66,6 +54,35 @@ public class GameOneActivity extends BaseActivity implements RecyclerItemClickLi
             }
         });
     }
+
+    @Override
+    public void handleCorrectResponse(int position) {
+        super.handleCorrectResponse();
+
+        adapter.updateCorrectAnswerResponse(binding.recyclerView, position);
+
+        AnimationUtils.getInstance().slideOutLeft(binding.quizPanel);
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                incrementCurrentIndex();
+                setUpNextQuestion();
+                AnimationUtils.getInstance().slideInRight(binding.quizPanel);
+                binding.recyclerView.setVisibility(View.INVISIBLE);
+                binding.line.setVisibility(View.INVISIBLE);
+            }
+        }, getResources().getInteger(R.integer.default_wait_time_before_next_question));
+    }
+
+
+    @Override
+    public void handleWrongResponse(int position) {
+        super.handleWrongResponse();
+
+        /* strike out the incorrect answer */
+        adapter.updateWrongAnswerResponse(binding.recyclerView, position);
+    }
+
 
     private void displayNextQuestionAnswers() {
         binding.recyclerView.setVisibility(View.VISIBLE);
@@ -86,7 +103,7 @@ public class GameOneActivity extends BaseActivity implements RecyclerItemClickLi
         @Override
         public void afterTextChanged(Editable s) {
             int numChars = binding.questionTxt.getText().toString().length();
-            if(getCurrentQuestion().getQuestionText().length() == numChars) {
+            if(isQuestionTypingCompleted(numChars)) {
                 displayNextQuestionAnswers();
             }
         }
@@ -96,28 +113,10 @@ public class GameOneActivity extends BaseActivity implements RecyclerItemClickLi
     @Override
     public void onItemClick(View view, int position) {
         Answer answer = adapter.getAnswer(position);
-
         if(!answer.isCorrectAnswer()) {
-            /* strike out the incorrect answer */
-            adapter.updateWrongAnswerResponse(binding.recyclerView, position);
-            handleIncorrectResponse(binding.quizPanel);
-
+            handleWrongResponse(position);
         } else {
-
-            adapter.updateCorrectAnswerResponse(binding.recyclerView, position);
-
-            handleCorrectResponse();
-            AnimationUtils.getInstance().slideOutLeft(binding.quizPanel);
-            handler.postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    setCurrentIndex(getCurrentIndex()+1);
-                    setUpNextQuestion();
-                    AnimationUtils.getInstance().slideInRight(binding.quizPanel);
-                    binding.recyclerView.setVisibility(View.INVISIBLE);
-                    binding.line.setVisibility(View.INVISIBLE);
-                }
-            }, getResources().getInteger(R.integer.default_wait_time_before_next_question));
+            handleCorrectResponse(position);
         }
     }
 }

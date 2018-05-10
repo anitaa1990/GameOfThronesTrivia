@@ -1,28 +1,24 @@
 package com.an.got.activity;
 
 
-import android.arch.lifecycle.Observer;
-import android.arch.lifecycle.ViewModelProviders;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.view.View;
 import android.widget.Button;
 import com.an.got.GOTConstants;
 import com.an.got.R;
-import com.an.got.base.BaseActivity;
 import com.an.got.databinding.GameTwoActivityBinding;
+import com.an.got.base.AppActivity;
 import com.an.got.model.Question;
-import com.an.got.model.Survey;
 import com.an.got.utils.AnimationUtils;
-import com.an.got.viewmodel.SurveyViewModel;
 import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
 
-public class GameTwoActivity extends BaseActivity implements View.OnClickListener, GOTConstants {
+public class GameTwoActivity extends AppActivity implements View.OnClickListener, GOTConstants {
 
     private GameTwoActivityBinding binding;
-    private SurveyViewModel surveyViewModel;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -32,21 +28,13 @@ public class GameTwoActivity extends BaseActivity implements View.OnClickListene
 
         binding.btnAlive.setOnClickListener(this);
         binding.btnDead.setOnClickListener(this);
-        surveyViewModel = ViewModelProviders.of(this).get(SurveyViewModel.class);
-        surveyViewModel.setGame(getIntent().getExtras().getString("pos"));
-        surveyViewModel.getSurveyMutableLiveData().observe(this, new Observer<Survey>() {
-            @Override
-            public void onChanged(@Nullable Survey survey) {
-                setCurrentSurvey(survey);
-                setUpNextQuestion();
-                setUpTimer();
-            }
-        });
+        initSurvey(getIntent().getExtras().getString("pos"));
     }
 
 
-    private void setUpNextQuestion() {
-        final Question question = getCurrentSurvey().getQuestions().get(getCurrentIndex());
+    @Override
+    public void setUpNextQuestion() {
+        final Question question =  getCurrentQuestion();
         Picasso.get().load(question.getImageUrl())
                 .placeholder(R.drawable.progress_drawable)
                 .into(binding.imgBanner, new Callback() {
@@ -60,26 +48,37 @@ public class GameTwoActivity extends BaseActivity implements View.OnClickListene
 
 
     @Override
+    public void handleCorrectResponse(int position) {
+        super.handleCorrectResponse();
+
+        AnimationUtils.getInstance().flipOut(binding.imgBanner);
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                incrementCurrentIndex();
+                setUpNextQuestion();
+                AnimationUtils.getInstance().flipIn(binding.imgBanner);
+            }
+        }, getResources().getInteger(R.integer.default_wait_time_before_next_question));
+    }
+
+
+    @Override
+    public void handleWrongResponse(int position) {
+        super.handleWrongResponse();
+    }
+
+
+    @Override
     public void onClick(View v) {
         Button view = (Button) v;
-
         String selectedAnswerText = view.getText().toString();
 
-        if(!surveyViewModel.isCorrectAnswer(selectedAnswerText)) {
-            handleIncorrectResponse(binding.quizPanel);
+        if(!isCorrectAnswer(selectedAnswerText)) {
+            handleWrongResponse(0);
 
         } else {
-            handleCorrectResponse();
-            AnimationUtils.getInstance().flipOut(binding.imgBanner);
-            handler.postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    surveyViewModel.incrementCurrentIndex();
-                    setCurrentIndex(getCurrentIndex()+1);
-                    setUpNextQuestion();
-                    AnimationUtils.getInstance().flipIn(binding.imgBanner);
-                }
-            }, getResources().getInteger(R.integer.default_wait_time_before_next_question));
+            handleCorrectResponse(0);
         }
     }
 }

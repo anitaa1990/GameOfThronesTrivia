@@ -9,11 +9,15 @@ import com.an.got.model.Survey;
 import com.an.got.utils.Utils;
 import com.google.gson.Gson;
 
+import java.util.Collections;
+
 
 public class SurveyViewModel extends ViewModel implements GOTConstants {
 
+
     private String game;
     private int currentIndex = 0;
+    private Long existingScore = 0l;
     private MutableLiveData<Survey> surveyMutableLiveData;
 
     public String getGame() {
@@ -36,6 +40,14 @@ public class SurveyViewModel extends ViewModel implements GOTConstants {
         setCurrentIndex(getCurrentIndex()+1);
     }
 
+    public Long getExistingScore() {
+        return existingScore;
+    }
+
+    public void setExistingScore(Long existingScore) {
+        this.existingScore = existingScore;
+    }
+
     public Question getCurrentQuestion() {
         return getSurveyMutableLiveData().getValue().getQuestions().get(getCurrentIndex());
     }
@@ -52,6 +64,7 @@ public class SurveyViewModel extends ViewModel implements GOTConstants {
         String name = String.format(LOCALE_CACHE_PATH, getGame());
         String responseString = (String) Utils.readObjectFromDisk(name);
         Survey survey = new Gson().fromJson(responseString, Survey.class);
+        Collections.shuffle(survey.getQuestions());
         surveyMutableLiveData.setValue(survey);
     }
 
@@ -63,5 +76,21 @@ public class SurveyViewModel extends ViewModel implements GOTConstants {
             }
         }
         return false;
+    }
+
+
+    public void updateScore(int timeRemaining) {
+        updateNumOfTries();
+        long score = Utils.getScoreForQuestion(timeRemaining, getCurrentQuestion().getNumTries());
+        score = getExistingScore() + score;
+        setExistingScore(score);
+    }
+
+    public void updateNumOfTries() {
+        getCurrentQuestion().updateTries();
+    }
+
+    public boolean isGameOver() {
+        return (getCurrentQuestion().getNumTries() >= getCurrentQuestion().getMaxTries());
     }
 }
