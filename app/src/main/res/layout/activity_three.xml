@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data class="GameThreeActivityBinding"></data>
+
+<FrameLayout
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/overlay">
@@ -25,7 +28,7 @@
             android:layout_marginLeft="@dimen/margin"
             android:layout_marginRight="@dimen/margin"
             android:layout_marginBottom="@dimen/margin"
-            android:background="@mipmap/parchment_9"
+            android:background="@drawable/parchment_9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -41,15 +44,14 @@
                 android:adjustViewBounds="true" />
 
 
-            <view
+            <android.support.v7.widget.RecyclerView
                 android:paddingLeft="@dimen/padding_xlarge"
                 android:paddingRight="@dimen/padding_xxlarge"
                 android:paddingBottom="@dimen/padding_xxlarge"
-                class="android.support.v7.widget.RecyclerView"
                 android:scrollbars="none"
                 android:divider="@null"
                 android:dividerHeight="0dp"
-                android:id="@+id/app_list"
+                android:id="@+id/recyclerView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:fadingEdge="none"
@@ -63,3 +65,5 @@
     </LinearLayout>
 
 </FrameLayout>
+
+</layout>
