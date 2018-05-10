@@ -3,7 +3,7 @@ package com.an.got.views;
 import android.content.Context;
 import android.os.Handler;
 import android.util.AttributeSet;
-import android.widget.TextView;
+import com.an.customfontview.CustomTextView;
 
 public class TypeWriter extends CustomTextView {
 

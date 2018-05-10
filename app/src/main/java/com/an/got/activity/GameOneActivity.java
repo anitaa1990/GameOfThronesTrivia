@@ -45,7 +45,7 @@ public class GameOneActivity extends BaseActivity implements OnSurveyListener, G
         lineSeparator = findViewById(R.id.line);
         questionTxt = (TypeWriter) findViewById(R.id.questionTxt);
         questionTxt.addTextChangedListener(textWatcher);
-        recyclerView = (RecyclerView) findViewById(R.id.app_list);
+        recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new CustomLinearLayoutManager(this));
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.addOnItemTouchListener(new RecyclerItemClickListener(this, new RecyclerItemClickListener.OnItemClickListener() {

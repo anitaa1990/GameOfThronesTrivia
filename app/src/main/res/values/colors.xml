@@ -16,12 +16,17 @@
     <color name="button_red_shadow_text_color">#9b2f31</color>
 
 
+    <color name="game_four_question_txt">#7b0303</color>
+    <color name="game_four_line">#bb6f1b</color>
 
     <color name="game_four_bg_button_green">#9abe58</color>
     <color name="game_four_text_button_green">#5f5e2d</color>
 
     <color name="game_four_bg_button_red">#5f5e2d</color>
     <color name="game_four_text_button_red">#5f5e2d</color>
+
+
+    <color name="correct_response_color">#0e5b02</color>
 
 
 </resources>

@@ -5,14 +5,14 @@
     android:layout_height="match_parent"
     android:background="@android:color/transparent">
 
-    <com.an.got.views.CustomTextView
+    <com.an.customfontview.CustomTextView
         android:id="@+id/answerTxt"
-        android:textSize="17dp"
+        android:textSize="@dimen/font_x_medium_large"
         android:layout_marginLeft="@dimen/margin"
         android:layout_marginRight="@dimen/margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:font="comic_papyrus"
+        app:textFontPath="comic_papyrus.ttf"
         android:textColor="@android:color/black" />
 
 

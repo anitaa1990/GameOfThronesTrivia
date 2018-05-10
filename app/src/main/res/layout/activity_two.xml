@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/overlay"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -41,21 +42,23 @@
                 android:adjustViewBounds="true" />
 
 
-            <com.an.got.views.CustomButton
+            <com.an.customfontview.CustomButton
                 android:id="@+id/btnAlive"
                 style="@style/GreenButtonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_xxxlarge"
-                android:text="ALIVE" />
+                android:text="@string/btn_alive"
+                app:btnFontPath="varsity_playbook.ttf" />
 
-            <com.an.got.views.CustomButton
+            <com.an.customfontview.CustomButton
                 android:id="@+id/btnDead"
                 style="@style/RedButtonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin"
-                android:text="DEAD" />
+                android:text="@string/btn_dead"
+                app:btnFontPath="varsity_playbook.ttf" />
 
         </LinearLayout>
 

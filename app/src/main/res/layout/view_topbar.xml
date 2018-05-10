@@ -1,84 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
 
 
-        <LinearLayout
-            android:layout_alignParentLeft="true"
-            android:orientation="vertical"
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical">
+
+
+        <com.an.customfontview.CustomTextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_small"
+            android:paddingLeft="@dimen/padding"
+            android:paddingRight="@dimen/padding"
+            android:paddingTop="@dimen/padding"
+            android:text="@string/topbar_time"
+            android:textAllCaps="true"
+            android:textColor="@color/game_four_question_txt"
+            android:textSize="@dimen/font_x_medium_large"
+            app:textFontPath="gt_medium.otf" />
 
 
-            <com.an.got.views.CustomTextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingLeft="@dimen/padding"
-                android:paddingRight="@dimen/padding"
-                android:paddingTop="@dimen/padding"
-                android:paddingBottom="@dimen/padding_small"
-                android:textAllCaps="true"
-                android:text="TIME"
-                android:textColor="#7b0303"
-                android:textSize="17dp"
-                app:font="gt_medium" />
-
-
-            <com.an.got.views.CustomTextView
-                android:id="@+id/timer"
-                android:layout_gravity="center_horizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingLeft="@dimen/padding"
-                android:paddingRight="@dimen/padding"
-                android:paddingBottom="@dimen/padding"
-                android:inputType="number"
-                android:text="60"
-                android:textColor="#7b0303"
-                android:textSize="28dp"
-                app:font="gt_medium" />
-
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:layout_alignParentRight="true"
-            android:orientation="vertical"
+        <com.an.customfontview.CustomTextView
+            android:id="@+id/timer"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:inputType="number"
+            android:paddingBottom="@dimen/padding"
+            android:paddingLeft="@dimen/padding"
+            android:paddingRight="@dimen/padding"
+            android:text="@string/topbar_timer"
+            android:textColor="@color/game_four_question_txt"
+            android:textSize="@dimen/font_xlarge_large"
+            app:textFontPath="gt_medium.otf" />
+
+    </LinearLayout>
 
 
-            <com.an.got.views.CustomTextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingLeft="@dimen/padding"
-                android:paddingRight="@dimen/padding"
-                android:paddingTop="@dimen/padding"
-                android:paddingBottom="@dimen/padding_small"
-                android:textAllCaps="true"
-                android:text="SCORE"
-                android:textColor="#7b0303"
-                android:textSize="17dp"
-                app:font="gt_medium" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
 
 
-            <com.an.got.views.CustomTextView
-                android:id="@+id/score"
-                android:layout_gravity="center_horizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingLeft="@dimen/padding"
-                android:paddingRight="@dimen/padding"
-                android:paddingBottom="@dimen/padding"
-                android:inputType="number"
-                android:text="0"
-                android:textColor="#7b0303"
-                android:textSize="28dp"
-                app:font="gt_medium" />
+        <com.an.customfontview.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_small"
+            android:paddingLeft="@dimen/padding"
+            android:paddingRight="@dimen/padding"
+            android:paddingTop="@dimen/padding"
+            android:text="@string/topbar_score"
+            android:textAllCaps="true"
+            android:textColor="@color/game_four_question_txt"
+            android:textSize="@dimen/font_x_medium_large"
+            app:textFontPath="gt_medium.otf" />
 
-        </LinearLayout>
 
-    </RelativeLayout>
+        <com.an.customfontview.CustomTextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:inputType="number"
+            android:paddingBottom="@dimen/padding"
+            android:paddingLeft="@dimen/padding"
+            android:paddingRight="@dimen/padding"
+            android:text="@string/topbar_score_default"
+            android:textColor="@color/game_four_question_txt"
+            android:textSize="@dimen/font_xlarge_large"
+            app:textFontPath="gt_medium.otf" />
+
+    </LinearLayout>
+
+</RelativeLayout>

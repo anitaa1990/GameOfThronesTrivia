@@ -2,10 +2,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:background="@android:color/transparent">
 
-    <com.an.got.views.CustomTextView
+    <com.an.customfontview.CustomTextView
         android:id="@+id/answerTxt"
         android:textSize="20dp"
         android:layout_marginLeft="@dimen/margin"
@@ -14,7 +14,7 @@
         android:layout_marginBottom="@dimen/margin_small"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:font="comic_papyrus"
+        app:textFontPath="comic_papyrus.ttf"
         android:textColor="@android:color/black" />
 
 
