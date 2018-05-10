@@ -1,65 +1,64 @@
 package com.an.got.activity;
 
 
+import android.arch.lifecycle.Observer;
+import android.arch.lifecycle.ViewModelProviders;
+import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
+
 import com.an.got.GOTConstants;
 import com.an.got.R;
 import com.an.got.base.BaseActivity;
-import com.an.got.callbacks.OnSurveyListener;
+import com.an.got.databinding.GameFourActivityBinding;
 import com.an.got.model.Answer;
 import com.an.got.model.Question;
 import com.an.got.model.Survey;
 import com.an.got.utils.AnimationUtils;
-import com.an.got.utils.Utils;
+import com.an.got.viewmodel.SurveyViewModel;
 import com.an.got.views.CollectionPicker;
-import com.an.got.views.TypeWriter;
 
-public class GameFourActivity extends BaseActivity implements OnSurveyListener, CollectionPicker.OnItemClickListener, GOTConstants {
+public class GameFourActivity extends BaseActivity implements CollectionPicker.OnItemClickListener, GOTConstants {
 
-    private TypeWriter questionTxt;
-    private CollectionPicker picker;
-    private View quizPanel;
-    private View lineSeparator;
+    private GameFourActivityBinding binding;
+    private SurveyViewModel surveyViewModel;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTheme(R.style.Theme_Transparent);
-        setContentView(R.layout.activity_four);
 
-        quizPanel = findViewById(R.id.quizPanel);
-        lineSeparator = findViewById(R.id.line);
-        questionTxt = (TypeWriter) findViewById(R.id.questionTxt);
-        questionTxt.addTextChangedListener(textWatcher);
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_four);
+        binding.questionTxt.addTextChangedListener(textWatcher);
+        binding.collectionItemPicker.setVisibility(View.INVISIBLE);
+        binding.collectionItemPicker.setOnItemClickListener(this);
 
-        picker = (CollectionPicker) findViewById(R.id.collection_item_picker);
-        picker.setVisibility(View.INVISIBLE);
-        picker.setOnItemClickListener(this);
-
-        fetchQuestions();
-        setUpTimer();
+        surveyViewModel = ViewModelProviders.of(this).get(SurveyViewModel.class);
+        surveyViewModel.setGame(getIntent().getExtras().getString("pos"));
+        surveyViewModel.getSurveyMutableLiveData().observe(this, new Observer<Survey>() {
+            @Override
+            public void onChanged(@Nullable Survey survey) {
+                setCurrentSurvey(survey);
+                setUpNextQuestion();
+                setUpTimer();
+            }
+        });
     }
 
-    private void fetchQuestions() {
-        String raw = getIntent().getExtras().getString("pos");
-        Utils.getSurveyFromFile(getApplicationContext(), raw, GameFourActivity.this);
-    }
 
     private void setUpNextQuestion() {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                if(picker != null) picker.clearItems();
+                if (binding.collectionItemPicker != null) binding.collectionItemPicker.clearItems();
                 final Question question = getCurrentSurvey().getQuestions().get(getCurrentIndex());
-                picker.setItems(question.getAnswers());
+                binding.collectionItemPicker.setItems(question.getAnswers());
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        questionTxt.animateText(question.getQuestionText());
+                        binding.questionTxt.animateText(question.getQuestionText());
                     }
                 });
             }
@@ -68,51 +67,44 @@ public class GameFourActivity extends BaseActivity implements OnSurveyListener, 
 
     private TextWatcher textWatcher = new TextWatcher() {
         @Override
-        public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
+        public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+        }
+
         @Override
-        public void onTextChanged(CharSequence s, int start, int before, int count) {}
+        public void onTextChanged(CharSequence s, int start, int before, int count) {
+        }
+
         @Override
         public void afterTextChanged(Editable s) {
-            int numChars = questionTxt.getText().toString().length();
-            if(getCurrentQuestion().getQuestionText().length() == numChars) {
-                picker.setVisibility(View.VISIBLE);
-                lineSeparator.setVisibility(View.VISIBLE);
+            int numChars = binding.questionTxt.getText().toString().length();
+            if (getCurrentQuestion().getQuestionText().length() == numChars) {
+                binding.collectionItemPicker.setVisibility(View.VISIBLE);
+                binding.line.setVisibility(View.VISIBLE);
                 startTimer(GAME_ONE_TIMER);
-                picker.drawItemView();
+                binding.collectionItemPicker.drawItemView();
             }
         }
     };
 
-    @Override
-    public void onFetchSurvey(final Survey survey) {
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                setCurrentSurvey(survey);
-                setUpNextQuestion();
-
-            }
-        }).start();
-    }
 
     @Override
     public void onClick(Answer answer, int position) {
-                if(!answer.isCorrectAnswer()) {
+        if (!answer.isCorrectAnswer()) {
 
-                    handleIncorrectResponse(quizPanel);
-                } else {
-                    handleCorrectResponse();
-                    AnimationUtils.getInstance().slideOutLeft(quizPanel);
-                    handler.postDelayed(new Runnable() {
-                        @Override
-                        public void run() {
-                            setCurrentIndex(getCurrentIndex()+1);
-                            setUpNextQuestion();
-                            AnimationUtils.getInstance().slideInRight(quizPanel);
-                            picker.setVisibility(View.INVISIBLE);
-                            lineSeparator.setVisibility(View.INVISIBLE);
-                        }
-                    }, 1000);
+            handleIncorrectResponse(binding.quizPanel);
+        } else {
+            handleCorrectResponse();
+            AnimationUtils.getInstance().slideOutLeft(binding.quizPanel);
+            handler.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    setCurrentIndex(getCurrentIndex() + 1);
+                    setUpNextQuestion();
+                    AnimationUtils.getInstance().slideInRight(binding.quizPanel);
+                    binding.collectionItemPicker.setVisibility(View.INVISIBLE);
+                    binding.line.setVisibility(View.INVISIBLE);
                 }
+            }, getResources().getInteger(R.integer.default_wait_time_before_next_question));
+        }
     }
 }
