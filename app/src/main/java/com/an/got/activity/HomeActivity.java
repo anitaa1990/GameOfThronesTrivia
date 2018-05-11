@@ -36,6 +36,7 @@ public class HomeActivity extends BaseActivity {
 
         showContent();
         getGames();
+        playBgm();
     }
 
 

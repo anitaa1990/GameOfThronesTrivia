@@ -1,5 +1,6 @@
 package com.an.got.base;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.os.Handler;
@@ -16,6 +17,8 @@ public class BaseActivity extends AppCompatActivity {
 
     private TextView timerTxt;
     private TextView scoreTxt;
+
+    private MediaPlayer mediaPlayer;
     private ExplosionField mExplosionField;
 
     private CountDownTimer timer;
@@ -28,6 +31,14 @@ public class BaseActivity extends AppCompatActivity {
         setTheme(R.style.Theme_AppCompat_Light_NoActionBar);
     }
 
+    protected void playBgm() {
+        if(mediaPlayer == null) {
+            mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.got);
+        }
+        if(!mediaPlayer.isPlaying()) {
+            mediaPlayer.start();
+        }
+    }
 
     protected void setUpTimer() {
         timerTxt = findViewById(R.id.timer);
@@ -101,6 +112,9 @@ public class BaseActivity extends AppCompatActivity {
         if(timer != null) {
             cancelTimer();
             timer = null;
+        }
+        if(mediaPlayer != null) {
+            mediaPlayer.release();
         }
     }
 }
