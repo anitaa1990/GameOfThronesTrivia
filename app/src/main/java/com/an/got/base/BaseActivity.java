@@ -37,6 +37,7 @@ public class BaseActivity extends AppCompatActivity {
         }
         if(!mediaPlayer.isPlaying()) {
             mediaPlayer.start();
+            mediaPlayer.setLooping(true);
         }
     }
 
