@@ -6,23 +6,23 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v7.widget.CardView;
 import android.view.ViewGroup;
 
-import com.an.got.fragment.CardFragment;
+import com.an.got.fragment.HomeFragment;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class CardFragmentPagerAdapter extends FragmentStatePagerAdapter implements CardAdapter {
+public class HomeFragmentPagerAdapter extends FragmentStatePagerAdapter implements CardAdapter {
 
-    private List<CardFragment> mFragments;
+    private List<HomeFragment> mFragments;
     private float mBaseElevation;
 
-    public CardFragmentPagerAdapter(FragmentManager fm, float baseElevation) {
+    public HomeFragmentPagerAdapter(FragmentManager fm, float baseElevation) {
         super(fm);
         mFragments = new ArrayList<>();
         mBaseElevation = baseElevation;
 
-        for(int i = 0; i< 4; i++) {
-            addCardFragment(CardFragment.newInstance(i));
+        for (int i = 0; i < 4; i++) {
+            addCardFragment(HomeFragment.newInstance(i));
         }
     }
 
@@ -49,11 +49,11 @@ public class CardFragmentPagerAdapter extends FragmentStatePagerAdapter implemen
     @Override
     public Object instantiateItem(ViewGroup container, int position) {
         Object fragment = super.instantiateItem(container, position);
-        mFragments.set(position, (CardFragment) fragment);
+        mFragments.set(position, (HomeFragment) fragment);
         return fragment;
     }
 
-    public void addCardFragment(CardFragment fragment) {
+    public void addCardFragment(HomeFragment fragment) {
         mFragments.add(fragment);
     }
 

@@ -33,6 +33,10 @@ import java.util.Random;
 
 public class Utils implements GOTConstants {
 
+    public static float dpToPixels(int dp, Context context) {
+        return dp * (context.getResources().getDisplayMetrics().density);
+    }
+
     public static String getJSONStringFromRaw(Context context, int rawId) {
 
         InputStream content = context.getResources().openRawResource(rawId);
@@ -70,10 +74,22 @@ public class Utils implements GOTConstants {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                String name = String.format(LOCALE_CACHE_PATH, context.getPackageName(), fileName);
+                String name = String.format(LOCALE_CACHE_PATH, fileName);
                 String responseString = (String) Utils.readObjectFromDisk(name);
                 Survey survey = new Gson().fromJson(responseString, Survey.class);
                 listener.onFetchSurvey(survey);
+            }
+        }).start();
+    }
+
+    public static void getSurveyFromFile(final String fileName) {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                String name = String.format(LOCALE_CACHE_PATH, fileName);
+                String responseString = (String) Utils.readObjectFromDisk(name);
+                Survey survey = new Gson().fromJson(responseString, Survey.class);
+
             }
         }).start();
     }

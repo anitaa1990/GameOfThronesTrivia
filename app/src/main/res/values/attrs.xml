@@ -9,22 +9,6 @@
         <attr name="metaButtonBarButtonStyle" format="reference" />
     </declare-styleable>
 
-    <attr name="font">
-        <enum name="lobster_regular" value="1" />
-        <enum name="varsity_playbook" value="2" />
-        <enum name="comic_papyrus" value="3" />
-        <enum name="circular_regular" value="4" />
-        <enum name="gt_medium" value="5" />
-    </attr>
-
-
-    <declare-styleable name="CustomTextView">
-        <attr name="font" />
-    </declare-styleable>
-
-    <declare-styleable name="CustomButton">
-        <attr name="font" />
-    </declare-styleable>
 
     <declare-styleable name="MovingImageView" >
         <attr name="miv_speed" format="integer" />

@@ -20,4 +20,14 @@
         <!--<item>How well do you know your characters? Let\'s find out</item>-->
         <item>How well do you know your houses? Let\'s find out</item>
     </string-array>
+
+
+    <string name="btn_alive">ALIVE</string>
+    <string name="btn_dead">DEAD</string>
+    <string name="topbar_time">TIME</string>
+    <string name="topbar_timer">60</string>
+    <string name="topbar_score">SCORE</string>
+    <string name="topbar_score_default">0</string>
+
+
 </resources>

@@ -1,111 +1,84 @@
 package com.an.got.activity;
 
 
+import android.databinding.DataBindingUtil;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
-
 import com.an.got.GOTConstants;
 import com.an.got.R;
-import com.an.got.base.BaseActivity;
-import com.an.got.callbacks.OnSurveyListener;
-import com.an.got.model.Answer;
+import com.an.got.databinding.GameTwoActivityBinding;
+import com.an.got.base.AppActivity;
 import com.an.got.model.Question;
-import com.an.got.model.Survey;
 import com.an.got.utils.AnimationUtils;
-import com.an.got.utils.Utils;
 import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
 
-public class GameTwoActivity extends BaseActivity implements OnSurveyListener, View.OnClickListener, GOTConstants {
+public class GameTwoActivity extends AppActivity implements View.OnClickListener, GOTConstants {
 
-    private View quizPanel;
-    private ImageView imageView;
-
-    private Button btnAlive;
-    private Button btnDead;
+    private GameTwoActivityBinding binding;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTheme(R.style.Theme_Transparent);
-        setContentView(R.layout.activity_two);
 
-        quizPanel = findViewById(R.id.quizPanel);
-        imageView = (ImageView) findViewById(R.id.imgBanner);
-        btnAlive = (Button) findViewById(R.id.btnAlive);
-        btnAlive.setOnClickListener(this);
-        btnDead = (Button) findViewById(R.id.btnDead);
-        btnDead.setOnClickListener(this);
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_two);
 
-        fetchQuestions();
-        setUpTimer();
+        binding.btnAlive.setOnClickListener(this);
+        binding.btnDead.setOnClickListener(this);
+        initSurvey(getIntent().getExtras().getString("pos"));
     }
 
-    private void fetchQuestions() {
-        String raw = getIntent().getExtras().getString("pos");
-        Utils.getSurveyFromFile(getApplicationContext(), raw, GameTwoActivity.this);
-    }
 
     @Override
-    public void onFetchSurvey(final Survey survey) {
-        setCurrentSurvey(survey);
-        setUpNextQuestion();
+    public void setUpNextQuestion() {
+        final Question question =  getCurrentQuestion();
+        Picasso.get().load(question.getImageUrl())
+                .placeholder(R.drawable.progress_drawable)
+                .into(binding.imgBanner, new Callback() {
+                    @Override
+                    public void onSuccess() {
+                        startTimer(GAME_TWO_TIMER);
+                    }
+                    @Override
+                    public void onError(Exception e) {}});
     }
 
-    private void setUpNextQuestion() {
-        new Thread(new Runnable() {
+
+    @Override
+    public void handleCorrectResponse(int position) {
+        super.handleCorrectResponse();
+
+        AnimationUtils.getInstance().flipOut(binding.imgBanner);
+        new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                final Question question = getCurrentSurvey().getQuestions().get(getCurrentIndex());
-                runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        Picasso.with(getApplicationContext())
-                                .load(question.getImageUrl())
-                                .placeholder(R.drawable.progress_drawable)
-                                .into(imageView, new Callback() {
-                            @Override
-                            public void onSuccess() {
-                                startTimer(GAME_TWO_TIMER);
-                            }
-                            @Override
-                            public void onError() {}});
-                    }
-                });
+                incrementCurrentIndex();
+                setUpNextQuestion();
+                AnimationUtils.getInstance().flipIn(binding.imgBanner);
             }
-        }).start();
+        }, getResources().getInteger(R.integer.default_wait_time_before_next_question));
     }
+
+
+    @Override
+    public void handleWrongResponse(int position) {
+        super.handleWrongResponse();
+    }
+
 
     @Override
     public void onClick(View v) {
         Button view = (Button) v;
         String selectedAnswerText = view.getText().toString();
-        if(!isCorrectAnswer(selectedAnswerText)) {
-            handleIncorrectResponse(quizPanel);
-        } else {
-            handleCorrectResponse();
-            AnimationUtils.getInstance().flipOut(imageView);
-            handler.postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    setCurrentIndex(getCurrentIndex()+1);
-                    setUpNextQuestion();
-                    AnimationUtils.getInstance().flipIn(imageView);
-                }
-            }, 1000);
-        }
-    }
 
-    private boolean isCorrectAnswer(String text) {
-        Question question = getCurrentQuestion();
-        for(Answer answer : question.getAnswers()) {
-            if(answer.isCorrectAnswer() && text.equalsIgnoreCase(answer.getAnswerDesc())) {
-                return true;
-            }
+        if(!isCorrectAnswer(selectedAnswerText)) {
+            handleWrongResponse(0);
+
+        } else {
+            handleCorrectResponse(0);
         }
-        return false;
     }
 }

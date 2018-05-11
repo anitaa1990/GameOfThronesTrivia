@@ -1,120 +1,104 @@
 package com.an.got.activity;
 
 
-import android.graphics.Color;
+import android.databinding.DataBindingUtil;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 import com.an.got.GOTConstants;
 import com.an.got.R;
 import com.an.got.adapter.AnswerListAdapter;
-import com.an.got.base.BaseActivity;
-import com.an.got.callbacks.OnSurveyListener;
+import com.an.got.databinding.GameThreeActivityBinding;
+import com.an.got.base.AppActivity;
 import com.an.got.model.Answer;
 import com.an.got.model.Question;
-import com.an.got.model.Survey;
 import com.an.got.utils.AnimationUtils;
-import com.an.got.utils.Utils;
 import com.an.got.views.CustomLinearLayoutManager;
 import com.an.got.views.RecyclerItemClickListener;
 import com.an.got.views.adapter.MyAlphaInAnimationAdapter;
 import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
 
-public class GameThreeActivity extends BaseActivity implements OnSurveyListener, GOTConstants {
-
-    private RecyclerView recyclerView;
-    private ImageView imageView;
-    private View quizPanel;
+public class GameThreeActivity extends AppActivity implements RecyclerItemClickListener.OnItemClickListener, GOTConstants {
 
     private AnswerListAdapter adapter;
+    private GameThreeActivityBinding binding;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTheme(R.style.Theme_Transparent);
-        setContentView(R.layout.activity_three);
 
-        quizPanel = findViewById(R.id.quizPanel);
-        imageView = (ImageView) findViewById(R.id.imgBanner);
-        recyclerView = (RecyclerView) findViewById(R.id.app_list);
-        recyclerView.setLayoutManager(new CustomLinearLayoutManager(this));
-        recyclerView.setItemAnimator(new DefaultItemAnimator());
-        recyclerView.addOnItemTouchListener(new RecyclerItemClickListener(this, new RecyclerItemClickListener.OnItemClickListener() {
-            @Override
-            public void onItemClick(View view, int position) {
-                Answer answer = adapter.getAnswer(position);
-                TextView tv = (TextView) view.findViewById(R.id.answerTxt);
-                if(!answer.isCorrectAnswer()) {
-                /* strike out the incorrect answer */
-                    tv.setTextColor(Color.parseColor("#7b0303"));
-                    AnimationUtils.getInstance().animateStrikeThrough(tv);
-                    handleIncorrectResponse(quizPanel);
-                } else {
-                    AnimationUtils.getInstance().animateCorrectResponse(tv, Color.parseColor("#0e5b02"));
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_three);
 
-                    handleCorrectResponse();
-                    AnimationUtils.getInstance().flipAndSlideOutLeft(quizPanel);
-                    handler.postDelayed(new Runnable() {
-                        @Override
-                        public void run() {
-                            setCurrentIndex(getCurrentIndex()+1);
-                            setUpNextQuestion();
-                            AnimationUtils.getInstance().flipAndSlideInRight(quizPanel);
-                        }
-                    }, 1000);
-
-                }
-            }
-        }));
-
-        fetchQuestions();
-        setUpTimer();
+        binding.recyclerView.setLayoutManager(new CustomLinearLayoutManager(this));
+        binding.recyclerView.setItemAnimator(new DefaultItemAnimator());
+        binding.recyclerView.addOnItemTouchListener(new RecyclerItemClickListener(getApplicationContext(), this));
+        initSurvey(getIntent().getExtras().getString("pos"));
     }
 
-    private void fetchQuestions() {
-        String raw = getIntent().getExtras().getString("pos");
-        Utils.getSurveyFromFile(getApplicationContext(), raw, GameThreeActivity.this);
-    }
-
-    private void setUpNextQuestion() {
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                if(adapter != null) adapter.clear();
-                final Question question = getCurrentSurvey().getQuestions().get(getCurrentIndex());
-                adapter = new AnswerListAdapter(GameThreeActivity.this, question.getAnswers());
-                runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        Picasso.with(getApplicationContext())
-                                .load(question.getImageUrl())
-                                .placeholder(R.drawable.progress_drawable)
-                                .into(imageView, new Callback() {
-                                    @Override
-                                    public void onSuccess() {
-                                        MyAlphaInAnimationAdapter alphaInAnimationAdapter =  new MyAlphaInAnimationAdapter(adapter);
-                                        alphaInAnimationAdapter.setRecyclerView(recyclerView);
-                                        alphaInAnimationAdapter.setDuration(1200);
-                                        recyclerView.setAdapter(alphaInAnimationAdapter);
-                                        startTimer(GAME_ONE_TIMER);
-                                    }
-                                    @Override
-                                    public void onError() {}});
-                    }
-                });
-            }
-        }).start();
-    }
 
     @Override
-    public void onFetchSurvey(Survey survey) {
-        setCurrentSurvey(survey);
-        setUpNextQuestion();
+    public void setUpNextQuestion() {
+        if(adapter != null) adapter.clear();
+        final Question question =  getCurrentQuestion();
+        adapter = new AnswerListAdapter(getApplicationContext(), question.getAnswers());
+
+        Picasso.get().load(question.getImageUrl())
+                .placeholder(R.drawable.progress_drawable)
+                .into(binding.imgBanner, new Callback() {
+                    @Override
+                    public void onSuccess() {
+                        binding.recyclerView.setVisibility(View.VISIBLE);
+                        MyAlphaInAnimationAdapter alphaInAnimationAdapter =  new MyAlphaInAnimationAdapter(adapter);
+                        alphaInAnimationAdapter.setRecyclerView(binding.recyclerView);
+                        alphaInAnimationAdapter.setDuration(1200);
+                        binding.recyclerView.setAdapter(alphaInAnimationAdapter);
+                        startTimer(GAME_ONE_TIMER);
+                    }
+
+                    @Override
+                    public void onError(Exception e) {}});
+    }
+
+
+    @Override
+    public void handleCorrectResponse(int position) {
+        super.handleCorrectResponse();
+
+        adapter.updateCorrectAnswerResponse(binding.recyclerView, position);
+        AnimationUtils.getInstance().flipAndSlideOutLeft(binding.quizPanel);
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                incrementCurrentIndex();
+                setUpNextQuestion();
+                AnimationUtils.getInstance().flipAndSlideInRight(binding.quizPanel);
+                binding.recyclerView.setVisibility(View.INVISIBLE);
+            }
+        }, getResources().getInteger(R.integer.default_wait_time_before_next_question));
+    }
+
+
+    @Override
+    public void handleWrongResponse(int position) {
+        super.handleWrongResponse();
+
+        /* strike out the incorrect answer */
+        adapter.updateWrongAnswerResponse(binding.recyclerView, position);
+    }
+
+
+    @Override
+    public void onItemClick(View view, int position) {
+        Answer answer = adapter.getAnswer(position);
+        if(!answer.isCorrectAnswer()) {
+           handleWrongResponse(position);
+
+        } else {
+            handleCorrectResponse(position);
+        }
     }
 }

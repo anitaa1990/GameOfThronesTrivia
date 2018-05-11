@@ -723,7 +723,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_mance_rayder.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_mance_rayder.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -739,7 +739,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_margerie.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_margerie.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -755,7 +755,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_martell.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_martell.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -771,7 +771,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_meera_reed.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_meera_reed.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -787,7 +787,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_meryn_trant.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_meryn_trant.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -803,7 +803,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_missandei.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_missandei.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -819,7 +819,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_mormont.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_mormont.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -835,7 +835,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_mountain.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_mountain.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -851,7 +851,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_mycella.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_mycella.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -867,7 +867,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_myranda.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_myranda.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -883,7 +883,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_ned.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_ned.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -899,7 +899,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_olenna.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_olenna.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -915,7 +915,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_olly.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_olly.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -931,7 +931,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_osha.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_osha.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -947,7 +947,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_podrick_payne.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_podrick_payne.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -963,7 +963,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_pycell.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_pycell.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -979,7 +979,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_pyp.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_pyp.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -995,7 +995,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_qhorin_halfhand.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_qhorin_halfhand.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1011,7 +1011,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_qyburn.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_qyburn.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1027,7 +1027,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_ramsay.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_ramsay.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1043,7 +1043,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_rast.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_rast.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1059,7 +1059,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_redwoman.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_redwoman.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1075,7 +1075,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_renly.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_renly.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1091,7 +1091,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_rickon.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_rickon.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1107,7 +1107,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_robb.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_robb.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1123,7 +1123,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_robert.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_robert.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1139,7 +1139,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_robin_arryn.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_robin_arryn.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1155,7 +1155,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_roose_bolton.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_roose_bolton.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1171,7 +1171,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_ros.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_ros.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1187,7 +1187,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_roslin_tully.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_roslin_tully.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1203,7 +1203,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_sansa.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_sansa.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1219,7 +1219,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_selyse_baratheon.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_selyse_baratheon.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1235,7 +1235,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_shae.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_shae.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1251,7 +1251,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_shireen_baratheon.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_shireen_baratheon.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1267,7 +1267,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_stannis.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_stannis.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1283,7 +1283,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_styr.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_styr.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1299,7 +1299,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_syrio_forel.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_syrio_forel.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1315,7 +1315,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_talisa.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_talisa.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1331,7 +1331,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_tarly.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_tarly.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1347,7 +1347,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_theon.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_theon.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1363,7 +1363,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_thoros.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_thoros.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1379,7 +1379,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_three_eyed_raven.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_three_eyed_raven.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1395,7 +1395,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_tommen.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_tommen.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1411,7 +1411,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_tormund.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_tormund.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1427,7 +1427,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_trystane_martell.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_trystane_martell.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1443,7 +1443,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_tyene_sand.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_tyene_sand.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1459,7 +1459,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_tyrion.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_tyrion.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1475,7 +1475,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_tywin.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_tywin.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1491,7 +1491,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_unella.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_unella.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1507,7 +1507,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_varys.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_varys.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1523,7 +1523,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_viserys.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_viserys.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1539,7 +1539,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_waif.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_waif.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1555,7 +1555,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_walder_frey.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_walder_frey.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1571,7 +1571,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_ygritte.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_ygritte.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
@@ -1587,7 +1587,7 @@
   }, {
     "id": 6526,
     "questionText": "Alive or Dead",
-    "imageUrl" : "https://s3-ap-southeast-1.amazonaws.com/static.airloyal.com/000-got-images/doa/doa_yoren.png",
+    "imageUrl" : "https://s3-us-west-2.amazonaws.com/daredevil-got/doa/doa_yoren.png",
     "maxTries": 0,
     "answers": [{
       "id": 17271,
