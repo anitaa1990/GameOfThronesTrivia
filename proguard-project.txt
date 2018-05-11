@@ -33,3 +33,4 @@
 }
 
 -keep class com.an.got.model.** { *; }
+-ignorewarnings
